@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/cybersecurity-ai-banner.png" alt="Abstract defensive AI security shield surrounded by containment rings, telemetry streams, and threat-intelligence graphs" width="100%" />
+  <img src="./assets/cybersecurity-ai-banner.png" alt="Hand-painted Japanese riverside security network with colorful policy gateways protecting a central evidence archive" width="100%" />
 </p>
 
 <div align="center">
