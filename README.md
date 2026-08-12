@@ -83,7 +83,7 @@ My projects treat security as an evidence pipeline: collect trustworthy signals,
 
 I am especially interested in **secure AI agents**: how to evaluate long-horizon behavior, detect covert or unauthorized actions, preserve independent oversight, and translate research prototypes into controls that security teams can operate.
 
-> Open to cybersecurity data science, AI security, security research, threat intelligence, detection engineering, and agent-safety opportunities.
+
 
 <div align="center">
 
