@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/cybersecurity-ai-banner.png" alt="Abstract defensive AI security shield surrounded by containment rings, telemetry streams, and threat-intelligence graphs" width="100%" />
+</p>
+
 <div align="center">
 
 # Vinay K
@@ -27,6 +31,16 @@ flowchart LR
     G --> E["Evaluation & monitoring"]
     E --> C["Containment & oversight"]
     C -. "feedback" .-> A
+
+    classDef signal fill:#0f172a,stroke:#22d3ee,color:#f8fafc,stroke-width:2px
+    classDef analysis fill:#172554,stroke:#60a5fa,color:#f8fafc,stroke-width:2px
+    classDef action fill:#312e81,stroke:#a78bfa,color:#f8fafc,stroke-width:2px
+    classDef safety fill:#042f2e,stroke:#2dd4bf,color:#f8fafc,stroke-width:2px
+    class T signal
+    class A,I analysis
+    class G action
+    class E,C safety
+    linkStyle default stroke:#38bdf8,stroke-width:2px
 ```
 
 My projects treat security as an evidence pipeline: collect trustworthy signals, detect meaningful behavior, investigate with provenance, constrain agent actions, and measure whether the controls actually work.
