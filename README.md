@@ -4,7 +4,7 @@
 
 <div align="center">
 
-# Vinay K
+# Vinay K.
 
 ### Cybersecurity Data Scientist · AI Security & Agent Safety · Threat Intelligence
 
