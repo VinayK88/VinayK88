@@ -6,87 +6,107 @@
 
 # Vinay K.
 
-### Cybersecurity Data Scientist · AI Security & Agent Safety · Threat Intelligence
+### Cybersecurity Data Scientist · AI Security Engineer · Threat Intelligence
 
-I build measurable defensive systems at the intersection of **cybersecurity, machine learning, and agentic AI**—from security telemetry and threat graphs to LLM evaluation, SOC investigation, and model-containment research.
+I build **explainable, evidence-driven security systems** across software supply chains, identity attack paths, macOS endpoints, SOC analytics, and AI-agent safety.
 
 [![Cybersecurity](https://img.shields.io/badge/Cybersecurity-0B1220?style=for-the-badge&logo=hackthebox&logoColor=9FEF00)](https://github.com/VinayK88?tab=repositories)
-[![AI Security](https://img.shields.io/badge/AI%20Security-312E81?style=for-the-badge&logo=openai&logoColor=white)](https://github.com/VinayK88/LLM-Security-Evaluation-Lab)
-[![Threat Intelligence](https://img.shields.io/badge/Threat%20Intelligence-7F1D1D?style=for-the-badge&logo=virustotal&logoColor=white)](https://github.com/VinayK88/Threat-intelligence-knowledgegraph)
+[![Supply Chain Security](https://img.shields.io/badge/Supply%20Chain-991B1B?style=for-the-badge&logo=dependabot&logoColor=white)](https://github.com/VinayK88/supplychain-guardian-ai)
+[![Apple Security](https://img.shields.io/badge/macOS%20Security-E5E7EB?style=for-the-badge&logo=apple&logoColor=111827)](https://github.com/VinayK88/macsentinel)
+[![AI Security](https://img.shields.io/badge/AI%20Security-312E81?style=for-the-badge&logo=openai&logoColor=white)](https://github.com/VinayK88/model-containment-eval-lab)
 [![Python](https://img.shields.io/badge/Python-1E3A5F?style=for-the-badge&logo=python&logoColor=FFD43B)](https://github.com/VinayK88?tab=repositories)
 
-**Security analytics · Detection engineering · AI/LLM safety · Agent evaluation · OSINT · Graph intelligence**
+**Supply-chain trust · Detection engineering · Identity security · Endpoint analytics · Agent containment**
 
 </div>
 
 ---
 
-## Defensive AI portfolio
+## Cybersecurity portfolio map
 
 ```mermaid
 flowchart LR
-    T["Security telemetry"] --> A["Analytics & detection"]
-    A --> I["Investigation & threat intelligence"]
-    I --> G["Agent-assisted response"]
-    G --> E["Evaluation & monitoring"]
-    E --> C["Containment & oversight"]
-    C -. "feedback" .-> A
+    SC["Software supply chain<br/>SBOM · CI/CD · provenance"] --> ID["Identity & attack paths<br/>Cloud · SaaS · AI agents"]
+    ID --> EP["Endpoint security<br/>macOS · behavior · sequences"]
+    EP --> SOC["SOC analytics<br/>Detection · investigation · CTI"]
+    SOC --> AS["AI-agent safety<br/>Evaluation · oversight · containment"]
+    AS -. "policy and evidence feedback" .-> SC
 
-    classDef signal fill:#0f172a,stroke:#22d3ee,color:#f8fafc,stroke-width:2px
-    classDef analysis fill:#172554,stroke:#60a5fa,color:#f8fafc,stroke-width:2px
-    classDef action fill:#312e81,stroke:#a78bfa,color:#f8fafc,stroke-width:2px
-    classDef safety fill:#042f2e,stroke:#2dd4bf,color:#f8fafc,stroke-width:2px
-    class T signal
-    class A,I analysis
-    class G action
-    class E,C safety
-    linkStyle default stroke:#38bdf8,stroke-width:2px
+    classDef trust fill:#7f1d1d,stroke:#fca5a5,color:#fff,stroke-width:2px
+    classDef detect fill:#172554,stroke:#60a5fa,color:#fff,stroke-width:2px
+    classDef respond fill:#312e81,stroke:#c4b5fd,color:#fff,stroke-width:2px
+    classDef safety fill:#042f2e,stroke:#5eead4,color:#fff,stroke-width:2px
+    class SC trust
+    class ID,EP detect
+    class SOC respond
+    class AS safety
+    linkStyle default stroke:#ef4444,stroke-width:2px
 ```
 
-My projects treat security as an evidence pipeline: collect trustworthy signals, detect meaningful behavior, investigate with provenance, constrain agent actions, and measure whether the controls actually work.
+Every project follows the same defensive loop: **collect trustworthy signals → build explainable evidence → apply measurable ML → support an analyst decision → enforce policy**.
 
-## Featured security research
+## New flagship systems
+
+| Project | The security question | What you can inspect |
+| --- | --- | --- |
+| **[SupplyChain Guardian AI](https://github.com/VinayK88/supplychain-guardian-ai)** | Can we trust a dependency, build, and release before it reaches production? | SBOM and CI/CD analysis, provenance graphs, interpretable ML, policy gates, SARIF/JSON output, FastAPI, Streamlit, tests, and three executed notebooks |
+| **[AttackPath AI](https://github.com/VinayK88/attackpath-ai)** | Can defenders connect identity, endpoint, cloud, SaaS, GitHub, and agent signals before exfiltration? | A safe synthetic cyber range, explainable attack-path detection, graph evidence, dashboard, and executed evaluation notebook |
+| **[MacSentinel](https://github.com/VinayK88/macsentinel)** | Can macOS behavior become useful detections without collecting sensitive content? | Swift-native telemetry, privacy-preserving features, provenance graphs, streaming/sequence/graph ML, drift tests, dashboard, and six executed notebooks |
+
+> These projects use transparent synthetic fixtures and cyber ranges so the experiments are safe, reproducible, and honest about what the reported metrics prove.
+
+## Security analytics, SOC & AI safety
 
 | Area | Project | What it demonstrates |
 | --- | --- | --- |
+| **Security analytics & ML** | [Cybersecurity Analytics & AI](https://github.com/VinayK88/cybersecurity-analytics) | **25 reproducible notebooks** spanning core defensive analytics, ethical OSINT, red-team simulation, blue-team detection, purple-team validation, graphs, and AI security |
 | **Agent containment** | [Model Containment Eval Lab](https://github.com/VinayK88/model-containment-eval-lab) | Shutdown compliance, synthetic egress/persistence tripwires, immutable traces, learned risk monitoring, and strict-vs-audit control experiments |
-| **LLM security** | [LLM Security Evaluation Lab](https://github.com/VinayK88/LLM-Security-Evaluation-Lab) | Prompt-injection testing, synthetic secret-leakage detection, hallucination checks, tool authorization, and human-approval enforcement |
-| **Agentic SOC** | [Agentic SOC Investigator](https://github.com/VinayK88/Agentic-soc-investigator) | Evidence-grounded alert investigation, graph-based reasoning, model comparison, action controls, and auditable incident reports |
-| **Security analytics & ML** | [Cybersecurity Analytics & AI](https://github.com/VinayK88/cybersecurity-analytics) | Ten reproducible notebooks covering authentication, network, DNS, endpoint, phishing, malware, SIEM, IAM, graph, and prompt-injection use cases |
+| **Agentic SOC** | [Agentic SOC Investigator](https://github.com/VinayK88/Agentic-soc-investigator) | Evidence-grounded alert investigation, graph reasoning, model comparison, action controls, and auditable incident reports |
+| **LLM security** | [LLM Security Evaluation Lab](https://github.com/VinayK88/LLM-Security-Evaluation-Lab) | Prompt-injection testing, synthetic leakage detection, hallucination checks, tool authorization, and human-approval enforcement |
 | **OSINT & CTI** | [OSINT Threat Intelligence Agent](https://github.com/VinayK88/Osint-threat-intell-agent) | IOC investigation, entity correlation, ATT&CK mapping, contradiction testing, provenance, and explainable risk scoring |
-| **Attack-path research** | [Counterfactual Security Engine](https://github.com/VinayK88/Counterfactual-security-engine) | Hypothetical attack-path simulation, control-gap analysis, counterfactual reasoning, and mitigation prioritization |
 
-## Security engineering systems
+## Research & security infrastructure
 
 | Project | Security problem addressed |
 | --- | --- |
 | [Security Telemetry Lakehouse](https://github.com/VinayK88/Security-Telemetry-Lakehouse) | Normalization, deterministic deduplication, late-event handling, behavioral features, and anomaly scoring across security sources |
 | [Threat Intelligence Knowledge Graph](https://github.com/VinayK88/Threat-intelligence-knowledgegraph) | Typed CTI entities, evidence paths, graph traversal, ATT&CK relationships, and retrieval-grounded investigation |
+| [Counterfactual Security Engine](https://github.com/VinayK88/Counterfactual-security-engine) | Hypothetical attack-path simulation, control-gap analysis, counterfactual reasoning, and mitigation prioritization |
 | [Oversight Integrity Lab](https://github.com/VinayK88/oversight-integrity-lab) | Counterfactual testing for hidden triggers, compromised oversight, calibration, monitor recall, and residual attack success |
 | [Frontier Agent Evals](https://github.com/VinayK88/frontier-agent-evals) | Long-horizon tool environments, perturbations, outcome/process/safety graders, calibration, and deterministic replay |
 
+## What the portfolio demonstrates
+
+| Security layer | Practical proof |
+| --- | --- |
+| **Prevent** | Dependency, SBOM, CI/CD, build-provenance, and policy-gate analysis |
+| **Detect** | Identity, endpoint, network, DNS, IAM, prompt-injection, and sequence/graph detections |
+| **Investigate** | Evidence graphs, ATT&CK mapping, OSINT correlation, attack paths, and auditable timelines |
+| **Respond safely** | Approval gates, least-privilege tools, machine-readable findings, and analyst-facing dashboards |
+| **Evaluate** | Executed notebooks, deterministic fixtures, baselines, ablations, failure analysis, tests, and CI |
+
 ## How I work
 
-- **Threat model first:** define assets, trust boundaries, misuse cases, and measurable failure conditions.
-- **Evidence over demos:** retain traces, provenance, baselines, failure taxonomies, and explicit limitations.
-- **Safety by construction:** synthetic data, least-privilege tools, approval gates, tripwires, and sandboxed experiments.
-- **Reproducible engineering:** versioned fixtures, deterministic seeds, automated tests, CI, and machine-readable reports.
-- **Decision-focused communication:** connect model metrics to analyst workflow, security controls, and operational risk.
+- **Threat model first:** define assets, trust boundaries, abuse cases, and measurable failure conditions.
+- **Evidence over demos:** preserve traces, provenance, baselines, limitations, and machine-readable findings.
+- **Safety by construction:** use synthetic data, least-privilege tools, approval gates, tripwires, and sandboxed experiments.
+- **Interpretable ML:** combine rules, graph reasoning, classical ML, sequence models, and LLMs only where each is useful.
+- **Reproducible engineering:** ship versioned fixtures, deterministic seeds, tests, CI, executed notebooks, APIs, and dashboards.
 
 ## Technical focus
 
 | Cybersecurity | Machine learning & AI | Engineering |
 | --- | --- | --- |
-| SOC analytics · SIEM telemetry · threat hunting · CTI · OSINT · ATT&CK mapping · IAM risk · attack-path analysis | Anomaly detection · classification · clustering · graph analytics · LLM/agent evaluation · calibration · interpretable ML | Python · Jupyter · APIs · pytest/unittest · Docker · GitHub Actions · data pipelines · reproducible experiments |
+| Software supply chain · SBOM · CI/CD · macOS security · identity/IAM · SOC · SIEM · CTI/OSINT · ATT&CK · attack paths | Anomaly detection · classification · sequence models · graph analytics · interpretable ML · LLM/agent evaluation · calibration | Python · Swift · Jupyter · Streamlit · FastAPI · SARIF · pytest · Docker · GitHub Actions · reproducible pipelines |
 
 ## Current research direction
 
-I am especially interested in **secure AI agents**: how to evaluate long-horizon behavior, detect covert or unauthorized actions, preserve independent oversight, and translate research prototypes into controls that security teams can operate.
+I am exploring how defenders can establish trust across the full chain—from **source and build provenance**, through **identity and endpoint behavior**, to **AI agents that must remain observable, controllable, and safely contained**.
 
-
+> Open to cybersecurity data science, AI security, security research, threat intelligence, detection engineering, software supply-chain security, and agent-safety opportunities.
 
 <div align="center">
 
-[Explore all repositories](https://github.com/VinayK88?tab=repositories) · [Start with the containment lab](https://github.com/VinayK88/model-containment-eval-lab) · [Review the cybersecurity notebooks](https://github.com/VinayK88/cybersecurity-analytics)
+[Start with SupplyChain Guardian AI](https://github.com/VinayK88/supplychain-guardian-ai) · [Explore AttackPath AI](https://github.com/VinayK88/attackpath-ai) · [Review MacSentinel](https://github.com/VinayK88/macsentinel) · [Browse all repositories](https://github.com/VinayK88?tab=repositories)
 
 </div>
