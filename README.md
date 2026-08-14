@@ -45,7 +45,7 @@ flowchart LR
 
 Every project follows the same defensive loop: **collect trustworthy signals → build explainable evidence → apply measurable ML → support an analyst decision → enforce policy**.
 
-## New flagship systems
+## Flagship cybersecurity systems
 
 | Project | The security question | What you can inspect |
 | --- | --- | --- |
