@@ -8,15 +8,16 @@
 
 ### Cybersecurity Data Scientist · AI Security Engineer · Threat Intelligence
 
-I build **explainable, evidence-driven security systems** across software supply chains, identity attack paths, macOS endpoints, SOC analytics, and AI-agent safety.
+I build **explainable, evidence-driven security systems** across software supply chains, identity attack paths, macOS endpoints, GPU/AI infrastructure, SOC analytics, and AI-agent safety.
 
 [![Cybersecurity](https://img.shields.io/badge/Cybersecurity-0B1220?style=for-the-badge&logo=hackthebox&logoColor=9FEF00)](https://github.com/VinayK88?tab=repositories)
 [![Supply Chain Security](https://img.shields.io/badge/Supply%20Chain-991B1B?style=for-the-badge&logo=dependabot&logoColor=white)](https://github.com/VinayK88/supplychain-guardian-ai)
 [![Apple Security](https://img.shields.io/badge/macOS%20Security-E5E7EB?style=for-the-badge&logo=apple&logoColor=111827)](https://github.com/VinayK88/macsentinel)
+[![GPU Security](https://img.shields.io/badge/GPU%20Security-76B900?style=for-the-badge&logo=nvidia&logoColor=white)](https://github.com/VinayK88/gpu-trust-guardian)
 [![AI Security](https://img.shields.io/badge/AI%20Security-312E81?style=for-the-badge&logo=openai&logoColor=white)](https://github.com/VinayK88/model-containment-eval-lab)
 [![Python](https://img.shields.io/badge/Python-1E3A5F?style=for-the-badge&logo=python&logoColor=FFD43B)](https://github.com/VinayK88?tab=repositories)
 
-**Supply-chain trust · Detection engineering · Identity security · Endpoint analytics · Agent containment**
+**Supply-chain trust · Detection engineering · Identity security · Endpoint analytics · GPU trust · Agent containment**
 
 </div>
 
@@ -28,7 +29,8 @@ I build **explainable, evidence-driven security systems** across software supply
 flowchart LR
     SC["Software supply chain<br/>SBOM · CI/CD · provenance"] --> ID["Identity & attack paths<br/>Cloud · SaaS · AI agents"]
     ID --> EP["Endpoint security<br/>macOS · behavior · sequences"]
-    EP --> SOC["SOC analytics<br/>Detection · investigation · CTI"]
+    EP --> GPU["GPU & AI infrastructure<br/>Attestation · behavior · policy"]
+    GPU --> SOC["SOC analytics<br/>Detection · investigation · CTI"]
     SOC --> AS["AI-agent safety<br/>Evaluation · oversight · containment"]
     AS -. "policy and evidence feedback" .-> SC
 
@@ -37,7 +39,7 @@ flowchart LR
     classDef respond fill:#312e81,stroke:#c4b5fd,color:#fff,stroke-width:2px
     classDef safety fill:#042f2e,stroke:#5eead4,color:#fff,stroke-width:2px
     class SC trust
-    class ID,EP detect
+    class ID,EP,GPU detect
     class SOC respond
     class AS safety
     linkStyle default stroke:#ef4444,stroke-width:2px
@@ -50,6 +52,7 @@ Every project follows the same defensive loop: **collect trustworthy signals →
 | Project | The security question | What you can inspect |
 | --- | --- | --- |
 | **[SupplyChain Guardian AI](https://github.com/VinayK88/supplychain-guardian-ai)** | Can we trust a dependency, build, and release before it reaches production? | SBOM and CI/CD analysis, provenance graphs, interpretable ML, policy gates, SARIF/JSON output, FastAPI, Streamlit, tests, and three executed notebooks |
+| **[GPU Trust Guardian](https://github.com/VinayK88/gpu-trust-guardian)** | Can sensitive AI workloads trust the GPU, its behavior, and the analyst agent before model or data access? | NVIDIA-focused GPU telemetry, synthetic attestation, digital fingerprints, attack paths, explainable policy gates, agent guardrails, dashboard, and four executed notebooks |
 | **[AttackPath AI](https://github.com/VinayK88/attackpath-ai)** | Can defenders connect identity, endpoint, cloud, SaaS, GitHub, and agent signals before exfiltration? | A safe synthetic cyber range, explainable attack-path detection, graph evidence, dashboard, and executed evaluation notebook |
 | **[MacSentinel](https://github.com/VinayK88/macsentinel)** | Can macOS behavior become useful detections without collecting sensitive content? | Swift-native telemetry, privacy-preserving features, provenance graphs, streaming/sequence/graph ML, drift tests, dashboard, and six executed notebooks |
 
@@ -79,8 +82,8 @@ Every project follows the same defensive loop: **collect trustworthy signals →
 
 | Security layer | Practical proof |
 | --- | --- |
-| **Prevent** | Dependency, SBOM, CI/CD, build-provenance, and policy-gate analysis |
-| **Detect** | Identity, endpoint, network, DNS, IAM, prompt-injection, and sequence/graph detections |
+| **Prevent** | Dependency, SBOM, CI/CD, build-provenance, GPU-attestation, and policy-gate analysis |
+| **Detect** | Identity, endpoint, GPU workload, network, DNS, IAM, prompt-injection, and sequence/graph detections |
 | **Investigate** | Evidence graphs, ATT&CK mapping, OSINT correlation, attack paths, and auditable timelines |
 | **Respond safely** | Approval gates, least-privilege tools, machine-readable findings, and analyst-facing dashboards |
 | **Evaluate** | Executed notebooks, deterministic fixtures, baselines, ablations, failure analysis, tests, and CI |
@@ -97,16 +100,16 @@ Every project follows the same defensive loop: **collect trustworthy signals →
 
 | Cybersecurity | Machine learning & AI | Engineering |
 | --- | --- | --- |
-| Software supply chain · SBOM · CI/CD · macOS security · identity/IAM · SOC · SIEM · CTI/OSINT · ATT&CK · attack paths | Anomaly detection · classification · sequence models · graph analytics · interpretable ML · LLM/agent evaluation · calibration | Python · Swift · Jupyter · Streamlit · FastAPI · SARIF · pytest · Docker · GitHub Actions · reproducible pipelines |
+| Software supply chain · SBOM · CI/CD · macOS security · GPU/AI infrastructure security · identity/IAM · SOC · SIEM · CTI/OSINT · ATT&CK · attack paths | Anomaly detection · classification · sequence models · graph analytics · interpretable ML · LLM/agent evaluation · calibration | Python · Swift · Jupyter · Streamlit · FastAPI · NVML/Morpheus integration patterns · SARIF · pytest · Docker · GitHub Actions · reproducible pipelines |
 
 ## Current research direction
 
-I am exploring how defenders can establish trust across the full chain—from **source and build provenance**, through **identity and endpoint behavior**, to **AI agents that must remain observable, controllable, and safely contained**.
+I am exploring how defenders can establish trust across the full chain—from **source and build provenance**, through **identity, endpoint, and GPU workload behavior**, to **AI agents that must remain observable, controllable, and safely contained**.
 
 > Open to cybersecurity data science, AI security, security research, threat intelligence, detection engineering, software supply-chain security, and agent-safety opportunities.
 
 <div align="center">
 
-[Start with SupplyChain Guardian AI](https://github.com/VinayK88/supplychain-guardian-ai) · [Explore AttackPath AI](https://github.com/VinayK88/attackpath-ai) · [Review MacSentinel](https://github.com/VinayK88/macsentinel) · [Browse all repositories](https://github.com/VinayK88?tab=repositories)
+[Start with SupplyChain Guardian AI](https://github.com/VinayK88/supplychain-guardian-ai) · [Explore GPU Trust Guardian](https://github.com/VinayK88/gpu-trust-guardian) · [Explore AttackPath AI](https://github.com/VinayK88/attackpath-ai) · [Review MacSentinel](https://github.com/VinayK88/macsentinel) · [Browse all repositories](https://github.com/VinayK88?tab=repositories)
 
 </div>
