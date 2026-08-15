@@ -106,7 +106,6 @@ Every project follows the same defensive loop: **collect trustworthy signals →
 
 I am exploring how defenders can establish trust across the full chain—from **source and build provenance**, through **identity, endpoint, and GPU workload behavior**, to **AI agents that must remain observable, controllable, and safely contained**.
 
-> Open to cybersecurity data science, AI security, security research, threat intelligence, detection engineering, software supply-chain security, and agent-safety opportunities.
 
 <div align="center">
 
