@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/cybersecurity-ai-banner.png" alt="Cybersecurity and AI security portfolio banner" width="100%" />
+</p>
+
 <div align="center">
 
 # Vinay K.
