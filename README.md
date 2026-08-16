@@ -8,79 +8,163 @@
 
 ### Cybersecurity Data Scientist · AI Security · Detection Engineering
 
-I build **production-minded security and AI systems** across detection engineering, agent security, model safeguards, trust & safety, attack-path analytics, and AI infrastructure.
+**Building measurable security systems across detection, AI/agent safeguards, trust & safety, threat intelligence, and AI infrastructure.**
 
+[![Detection Engineering](https://img.shields.io/badge/Detection%20Engineering-1E3A8A?style=flat-square)](https://github.com/VinayK88/DetectionForge)
 [![AI Security](https://img.shields.io/badge/AI%20Security-111827?style=flat-square)](https://github.com/VinayK88/LLM-Security-Evaluation-Lab)
-[![Detection Engineering](https://img.shields.io/badge/Detection%20Engineering-1E40AF?style=flat-square)](https://github.com/VinayK88/DetectionForge)
 [![Agent Security](https://img.shields.io/badge/Agent%20Security-0F766E?style=flat-square)](https://github.com/VinayK88/AgentAtlas)
 [![Trust & Safety](https://img.shields.io/badge/Trust%20%26%20Safety-9A3412?style=flat-square)](https://github.com/VinayK88/riskos)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/VinayK88?tab=repositories)
 
-**Security ML · LLM/agent evaluation · SOC analytics · identity/IAM · threat intelligence · graph analytics · risk modeling**
+`Security ML` · `LLM / Agent Evaluation` · `SOC Analytics` · `Identity / IAM` · `Threat Intelligence` · `Graph Analytics`
 
 </div>
 
 ---
 
-## Featured work
+## Profile
 
-| Project | Focus | Engineering evidence |
-| --- | --- | --- |
-| **[DetectionForge](https://github.com/VinayK88/DetectionForge)** | Detection-as-code and detection lifecycle engineering | Sigma-style rules, KQL compilation, attack/benign replay, precision/recall/FPR gates, ATT&CK coverage, analyst feedback, FastAPI dashboard, CI |
-| **[AgentAtlas](https://github.com/VinayK88/AgentAtlas)** | AI-agent discovery, identity governance and effective access | Shadow/orphaned agent discovery, delegation controls, permission drift, access graphs, posture scoring, API/dashboard, CI |
-| **[LLM Security Evaluation Lab](https://github.com/VinayK88/LLM-Security-Evaluation-Lab)** | Frontier-model safeguards and actor-level misuse evaluation | Real Claude adapter, repeated trials, safety graders, misuse trajectories, intervention policies, tool-safety evaluation |
-| **[AI Data Center Security Digital Twin](https://github.com/VinayK88/ai-datacenter-security-digital-twin)** | AI infrastructure attack paths and resilience | GPU/BMC/Kubernetes/network/power topology, directed attack graphs, blast radius, trust chokepoints, control what-if analysis |
-| **[RiskOS](https://github.com/VinayK88/riskos)** | Trust & Safety risk decisioning | Behavioral/graph/temporal signals, calibration, expected-loss optimization, review-capacity thresholds, champion/challenger evaluation |
-| **[MacSentinel](https://github.com/VinayK88/macsentinel)** | Privacy-preserving macOS detection | Native Swift sensor, provenance graphs, anomaly/sequence/graph ML, drift/adversarial testing, analyst dashboard, macOS CI |
+I design and evaluate **security systems that connect telemetry → detection → investigation → decision**. My work combines cybersecurity, applied machine learning, graph analytics, LLM/agent evaluation, and production-oriented engineering with an emphasis on **explainability, measurable quality, human review, and reproducibility**.
 
-> Projects use synthetic or simulation-based fixtures where real security telemetry would be sensitive. Each repository documents its evaluation boundary and what the reported metrics do—and do not—establish.
+My current portfolio is centered on four areas:
+
+| Detection & Security Analytics | AI & Agent Security | Threat & Infrastructure | Trust & Risk |
+| --- | --- | --- | --- |
+| Detection-as-code, telemetry, anomaly/graph/sequence detection, SOC feedback loops | LLM safeguards, prompt injection, agent identity, tool-abuse and containment evaluation | IAM attack paths, CTI, software supply chain, endpoint and AI infrastructure security | Fraud/abuse signals, calibration, review capacity, policy thresholds and decision economics |
 
 ---
 
-## What I work on
+## Featured Projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### Detection & Security Analytics
-- Detection-as-code and rule lifecycle engineering
-- Security telemetry normalization and feature engineering
-- Anomaly, sequence and graph-based detection
-- Precision/recall, false-positive and drift monitoring
-- SOC investigation and analyst feedback loops
+### [DetectionForge](https://github.com/VinayK88/DetectionForge)
+**Detection engineering as code**
+
+Versioned detections with Sigma-style rules, KQL compilation, malicious/benign replay, precision/recall/FPR release gates, ATT&CK coverage, analyst feedback, FastAPI dashboard, and CI.
+
+**Focus:** Detection lifecycle · SIEM · KQL · ATT&CK · regression testing
 
 </td>
 <td width="50%" valign="top">
 
-### AI & Agent Security
-- LLM / agent safeguards and evaluation
-- Prompt-injection and tool-abuse testing
-- Agent identity, authorization and delegation risk
-- Containment, oversight and intervention evaluation
-- Evidence-grounded security reasoning
+### [AgentAtlas](https://github.com/VinayK88/AgentAtlas)
+**AI-agent identity & access governance**
+
+Discovers managed, shadow, orphaned and dormant agents; models effective access, delegation risk, permission drift and sensitive-data reachability with transparent posture scoring.
+
+**Focus:** Agent security · IAM · access graphs · governance
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### Threat & Infrastructure Security
-- Identity/IAM attack paths
-- Threat intelligence and ATT&CK mapping
-- Software supply-chain security
-- macOS endpoint security
-- GPU / AI infrastructure security
+### [LLM Security Evaluation Lab](https://github.com/VinayK88/LLM-Security-Evaluation-Lab)
+**Frontier-model safeguards & misuse evaluation**
+
+Claude API adapter, repeated trials, tool-safety and prompt-injection evaluation, actor-level misuse trajectories, intervention policies, hard negatives, and reproducible evaluation traces.
+
+**Focus:** AI safety · LLM evaluation · safeguards · red-team methodology
 
 </td>
 <td width="50%" valign="top">
 
-### Trust, Risk & Decision Systems
-- Fraud and abuse risk modeling
-- Behavioral and relationship signals
-- Calibration and threshold optimization
-- Human-review capacity and decision economics
-- Explainable policy and reason codes
+### [AI Data Center Security Digital Twin](https://github.com/VinayK88/ai-datacenter-security-digital-twin)
+**AI infrastructure attack-path simulation**
+
+Models GPU nodes, BMCs, Kubernetes, identity, network and power systems as directed attack/trust graphs to measure blast radius, chokepoints, and control impact.
+
+**Focus:** AI infrastructure · attack graphs · resilience · security architecture
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [RiskOS](https://github.com/VinayK88/riskos)
+**Trust & Safety decisioning platform**
+
+Behavioral, temporal and graph signals with calibration, expected-loss optimization, review-capacity thresholds, champion/challenger evaluation, and explainable policy decisions.
+
+**Focus:** Trust & Safety · fraud risk · calibration · decision science
+
+</td>
+<td width="50%" valign="top">
+
+### [MacSentinel](https://github.com/VinayK88/macsentinel)
+**Privacy-preserving macOS detection**
+
+Native Swift telemetry replay, privacy normalization, provenance graphs, anomaly/sequence/graph ML, drift and mimicry testing, benchmark evidence, dashboard, and macOS CI.
+
+**Focus:** Endpoint security · macOS · privacy · security ML
+
+</td>
+</tr>
+</table>
+
+> **Evaluation note:** most public datasets and attack scenarios are intentionally synthetic or simulation-based because real security telemetry is sensitive. Each repository documents its evaluation boundary and what its metrics do—and do not—establish.
+
+---
+
+## Engineering Principles
+
+- **Threat model first** — define assets, trust boundaries, abuse cases and measurable failure conditions before choosing a model.
+- **Evaluation before deployment** — use hard negatives, regression testing, calibration, drift checks and explicit release gates.
+- **Evidence over demos** — preserve traces, provenance, baselines, failure cases and machine-readable outputs.
+- **Human control for sensitive actions** — keep high-impact actions behind least-privilege tooling, approvals and rollback paths.
+- **Interpretable by default** — combine rules, classical ML, graph reasoning, sequence models and LLMs where each is actually useful.
+
+---
+
+## Technical Focus
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+**Cybersecurity**
+
+SIEM / SOC analytics  
+Identity / IAM  
+MITRE ATT&CK  
+CTI / OSINT  
+Attack paths  
+Software supply chain  
+Endpoint security  
+AI infrastructure security
+
+</td>
+<td width="33%" valign="top">
+
+**AI / Machine Learning**
+
+Anomaly detection  
+Classification  
+Graph analytics  
+Sequence models  
+Calibration  
+Risk modeling  
+RAG  
+LLM / agent evaluation  
+Safety metrics
+
+</td>
+<td width="33%" valign="top">
+
+**Engineering**
+
+Python  
+SQL  
+PySpark / Spark  
+Swift  
+FastAPI  
+Streamlit  
+Docker  
+GitHub Actions  
+Jupyter  
+SARIF
 
 </td>
 </tr>
@@ -88,30 +172,10 @@ I build **production-minded security and AI systems** across detection engineeri
 
 ---
 
-## Engineering approach
-
-I prefer security systems that are **measurable, reviewable and reproducible**:
-
-- **Threat model first** — define assets, trust boundaries, abuse cases and failure conditions before choosing a model.
-- **Evidence over demos** — preserve traces, provenance, baselines, failure cases and machine-readable findings.
-- **Evaluation before deployment** — use hard negatives, regression tests, calibration, drift checks and explicit release gates.
-- **Human control where it matters** — keep sensitive actions behind least-privilege tools, approval boundaries and rollback paths.
-- **Interpretable by default** — combine rules, classical ML, graph reasoning, sequence models and LLMs only where each adds value.
-
----
-
-## Selected technical stack
-
-**Security:** SIEM/SOC analytics · identity/IAM · MITRE ATT&CK · CTI/OSINT · attack paths · software supply chain · endpoint security · AI infrastructure security
-
-**AI/ML:** anomaly detection · classification · graph analytics · sequence models · calibration · risk modeling · RAG · LLM/agent evaluation · safety metrics
-
-**Engineering:** Python · SQL · PySpark/Spark · Swift · FastAPI · Streamlit · Docker · GitHub Actions · Jupyter · SARIF · reproducible pipelines
-
----
+## More Security & AI Work
 
 <details>
-<summary><strong>AI safety & research projects</strong></summary>
+<summary><strong>AI safety, interpretability & agent evaluation</strong></summary>
 <br>
 
 - **[Frontier Agent Evals](https://github.com/VinayK88/frontier-agent-evals)** — long-horizon tool environments, perturbations, process/outcome/safety graders and calibration.
@@ -122,25 +186,25 @@ I prefer security systems that are **measurable, reviewable and reproducible**:
 </details>
 
 <details>
-<summary><strong>Security engineering & threat projects</strong></summary>
+<summary><strong>Security engineering, detection & threat intelligence</strong></summary>
 <br>
 
 - **[Agentic SOC Investigator](https://github.com/VinayK88/Agentic-soc-investigator)** — evidence-grounded investigation across identity, endpoint, cloud and OAuth.
-- **[AttackPath AI](https://github.com/VinayK88/attackpath-ai)** — hybrid detection and graph reconstruction for identity/cloud/agent attack paths.
+- **[AttackPath AI](https://github.com/VinayK88/attackpath-ai)** — hybrid detection and graph reconstruction for identity, cloud and agent attack paths.
 - **[GPU Trust Guardian](https://github.com/VinayK88/gpu-trust-guardian)** — GPU telemetry, synthetic attestation, behavioral trust scoring and policy gates.
 - **[SupplyChain Guardian AI](https://github.com/VinayK88/supplychain-guardian-ai)** — SBOM, CI/CD, provenance, dependency risk and release policy gates.
 - **[Security Telemetry Lakehouse](https://github.com/VinayK88/Security-Telemetry-Lakehouse)** — normalization, deduplication, late-event handling and detection-ready features.
 - **[Threat Intelligence Knowledge Graph](https://github.com/VinayK88/Threat-intelligence-knowledgegraph)** — typed CTI entities, evidence paths and retrieval-grounded graph investigation.
+- **[OSINT Threat Intelligence Agent](https://github.com/VinayK88/Osint-threat-intell-agent)** — provenance, contradiction testing, entity correlation and ATT&CK context.
 
 </details>
 
 <details>
-<summary><strong>AI systems & security architecture projects</strong></summary>
+<summary><strong>AI systems & security architecture</strong></summary>
 <br>
 
 - **[Inference Scheduler Lab](https://github.com/VinayK88/inference-scheduler-lab)** — continuous batching, SLO-aware scheduling, TTFT, throughput and KV-cache pressure.
 - **[Counterfactual Security Engine](https://github.com/VinayK88/Counterfactual-security-engine)** — enterprise attack paths and control-hardening counterfactuals.
-- **[OSINT Threat Intelligence Agent](https://github.com/VinayK88/Osint-threat-intell-agent)** — provenance, contradiction testing, entity correlation and ATT&CK context.
 
 </details>
 
@@ -148,10 +212,10 @@ I prefer security systems that are **measurable, reviewable and reproducible**:
 
 <div align="center">
 
-### Explore the portfolio
+### Selected Portfolio
 
-[DetectionForge](https://github.com/VinayK88/DetectionForge) · [AgentAtlas](https://github.com/VinayK88/AgentAtlas) · [LLM Security Evaluation Lab](https://github.com/VinayK88/LLM-Security-Evaluation-Lab) · [AI Data Center Digital Twin](https://github.com/VinayK88/ai-datacenter-security-digital-twin) · [RiskOS](https://github.com/VinayK88/riskos)
+[**DetectionForge**](https://github.com/VinayK88/DetectionForge) · [**AgentAtlas**](https://github.com/VinayK88/AgentAtlas) · [**LLM Security Evaluation Lab**](https://github.com/VinayK88/LLM-Security-Evaluation-Lab) · [**AI Data Center Digital Twin**](https://github.com/VinayK88/ai-datacenter-security-digital-twin) · [**RiskOS**](https://github.com/VinayK88/riskos)
 
-[Browse all repositories](https://github.com/VinayK88?tab=repositories)
+[Browse all repositories →](https://github.com/VinayK88?tab=repositories)
 
 </div>
