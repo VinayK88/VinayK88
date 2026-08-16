@@ -25,11 +25,25 @@
 
 I design and evaluate **security systems that connect telemetry → detection → investigation → decision**. My work combines cybersecurity, applied machine learning, graph analytics, LLM/agent evaluation, and production-oriented engineering with an emphasis on **explainability, measurable quality, human review, and reproducibility**.
 
+I am especially interested in security problems where model quality alone is not enough: the system also needs reliable telemetry, interpretable evidence, explicit decision thresholds, safe automation boundaries, analyst feedback, and continuous evaluation after deployment.
+
 My current portfolio is centered on four areas:
 
 | Detection & Security Analytics | AI & Agent Security | Threat & Infrastructure | Trust & Risk |
 | --- | --- | --- | --- |
 | Detection-as-code, telemetry, anomaly/graph/sequence detection, SOC feedback loops | LLM safeguards, prompt injection, agent identity, tool-abuse and containment evaluation | IAM attack paths, CTI, software supply chain, endpoint and AI infrastructure security | Fraud/abuse signals, calibration, review capacity, policy thresholds and decision economics |
+
+### How the portfolio connects
+
+The projects are designed around different parts of the same defensive lifecycle rather than as isolated demos:
+
+| Security lifecycle | Representative projects | What the layer answers |
+| --- | --- | --- |
+| **Observe & contextualize** | [Security Telemetry Lakehouse](https://github.com/VinayK88/Security-Telemetry-Lakehouse), [AgentAtlas](https://github.com/VinayK88/AgentAtlas) | What entities, identities, permissions and security events exist, and can they be trusted enough for downstream analysis? |
+| **Detect** | [DetectionForge](https://github.com/VinayK88/DetectionForge), [MacSentinel](https://github.com/VinayK88/macsentinel), [AttackPath AI](https://github.com/VinayK88/attackpath-ai) | Which behaviors are anomalous or malicious, and how do we measure detection quality before deployment? |
+| **Investigate** | [Agentic SOC Investigator](https://github.com/VinayK88/Agentic-soc-investigator), [Threat Intelligence Knowledge Graph](https://github.com/VinayK88/Threat-intelligence-knowledgegraph) | What evidence explains the alert, what competing hypotheses exist, and how does activity map to ATT&CK and known threat context? |
+| **Decide & control** | [RiskOS](https://github.com/VinayK88/riskos), [SupplyChain Guardian AI](https://github.com/VinayK88/supplychain-guardian-ai) | What action should the system take given risk, false positives, human-review capacity and policy constraints? |
+| **Evaluate & improve** | [LLM Security Evaluation Lab](https://github.com/VinayK88/LLM-Security-Evaluation-Lab), [Frontier Agent Evals](https://github.com/VinayK88/frontier-agent-evals), [Model Containment Eval Lab](https://github.com/VinayK88/model-containment-eval-lab) | Does the system remain safe and effective under hard negatives, adversarial conditions, repeated trials and changing behavior? |
 
 ---
 
