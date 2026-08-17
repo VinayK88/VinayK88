@@ -19,7 +19,7 @@
 [![Trust & Safety](https://img.shields.io/badge/Trust%20%26%20Safety-9A3412?style=flat-square)](https://github.com/VinayK88/riskos)
 [![Critical Infrastructure](https://img.shields.io/badge/Critical%20Infrastructure-334155?style=flat-square)](https://github.com/VinayK88/InfraGuard-AI)
 
-`Security ML` · `AI / Agent Security` · `Browser & SaaS Security` · `Cloud Security` · `Detection Engineering` · `Identity / IAM` · `Trust & Safety` · `Threat Intelligence` · `Graph Analytics`
+`Security ML` · `Model Monitoring / Drift` · `AI / Agent Security` · `Browser & SaaS Security` · `Cloud Security` · `Detection Engineering` · `Identity / IAM` · `Trust & Safety` · `Graph Analytics`
 
 </div>
 
@@ -29,7 +29,7 @@
 
 I design and evaluate **security and AI systems that turn complex signals into defensible decisions**. My work combines cybersecurity, applied machine learning, graph analytics, LLM/agent evaluation, trust & safety, cloud/SaaS/browser security, and production-oriented engineering with an emphasis on **explainability, measurable quality, human review, and reproducibility**.
 
-I am especially interested in security problems where model accuracy alone is not enough. A useful system also needs trustworthy data, interpretable evidence, explicit thresholds, least-privilege controls, safe automation boundaries, resilient failure modes, and continuous evaluation after deployment.
+I am especially interested in security problems where model accuracy alone is not enough. A useful system also needs trustworthy data, interpretable evidence, explicit thresholds, **model/version governance, drift monitoring, robustness testing**, least-privilege controls, safe automation boundaries, resilient failure modes, and continuous evaluation after deployment.
 
 ---
 
@@ -50,31 +50,31 @@ Combines transparent posture rules with **Isolation Forest anomaly detection**, 
 <td width="25%" valign="top">
 
 ### [SaaSGraph](https://github.com/VinayK88/SaaSGraph)
-**OAuth & third-party SaaS exposure**
+**OAuth & SaaS exposure with behavioral ML**
 
-Maps sensitive scopes, admin consent, token persistence, publisher trust, dormant grants, API anomalies, and user/resource blast radius.
+Combines OAuth posture rules with **Isolation Forest**, API-behavior anomaly scoring, PSI population-drift monitoring, subtle-behavior robustness tests, and user/resource blast radius.
 
-**Focus:** SaaS security · OAuth governance · identity risk
+**Focus:** SaaS security · OAuth governance · anomaly detection · model monitoring
 
 </td>
 <td width="25%" valign="top">
 
 ### [CloudRescue](https://github.com/VinayK88/CloudRescue)
-**Cloud ransomware recovery assurance**
+**Cloud recovery assurance + ML forecasting**
 
-Tests whether workloads remain recoverable after control-plane compromise, backup tampering, KMS loss, region failure, or recovery-identity compromise.
+Pairs deterministic recovery blockers with a **Random Forest restore-time forecaster**, feature/residual drift monitoring, RTO-pressure stress tests, and explicit safeguards that prevent ML from overriding hard recovery dependencies.
 
-**Focus:** Cloud security · ransomware resilience · RTO/RPO
+**Focus:** Cloud security · Random Forest · drift monitoring · RTO/RPO
 
 </td>
 <td width="25%" valign="top">
 
 ### [DeepTrace](https://github.com/VinayK88/DeepTrace)
-**Content authenticity & influence analysis**
+**Content integrity + NLP campaign clustering**
 
-Fuses provenance, metadata, source similarity, manipulation signals, narratives, and campaign relationships into explainable content-integrity assessments.
+Fuses provenance and forensic evidence with **TF-IDF + DBSCAN** narrative clustering, language-distribution drift monitoring, and paraphrase-robustness evaluation.
 
-**Focus:** Content integrity · provenance · multimodal AI
+**Focus:** Content integrity · NLP · clustering · robustness testing
 
 </td>
 </tr>
@@ -86,17 +86,17 @@ Fuses provenance, metadata, source similarity, manipulation signals, narratives,
 
 | Capability | Representative projects | Core question |
 | --- | --- | --- |
-| **Discover & govern AI agents** | [AgentAtlas](https://github.com/VinayK88/AgentAtlas) | What agents exist, what can they access, and where are delegation or permission risks? |
+| **Discover & govern AI agents** | [AgentAtlas](https://github.com/VinayK88/AgentAtlas) | What agents exist, what can they access, and which peer-group anomalies or permission changes deserve review? |
 | **Control agent execution** | [AgentShield](https://github.com/VinayK88/AgentShield) | Should this tool call be allowed, redacted, escalated for approval, or blocked right now? |
 | **Evaluate model safeguards** | [LLM Security Evaluation Lab](https://github.com/VinayK88/LLM-Security-Evaluation-Lab), [Frontier Agent Evals](https://github.com/VinayK88/frontier-agent-evals) | Does an AI system remain safe under misuse, prompt injection, tool use, and adversarial conditions? |
 | **Secure the browser with ML** | [BrowserGuard](https://github.com/VinayK88/BrowserGuard) | Which extensions behave abnormally, what can they access, and how large is their browser-to-SaaS blast radius? |
-| **Govern SaaS & OAuth trust** | [SaaSGraph](https://github.com/VinayK88/SaaSGraph) | Which third-party grants, persistent tokens, and OAuth trust relationships expose enterprise users or data? |
+| **Govern SaaS & OAuth trust** | [SaaSGraph](https://github.com/VinayK88/SaaSGraph) | Which third-party grants expose enterprise data, behave abnormally, or drift from expected OAuth/API populations? |
 | **Detect & investigate threats** | [DetectionForge](https://github.com/VinayK88/DetectionForge), [MacSentinel](https://github.com/VinayK88/macsentinel), [Agentic SOC Investigator](https://github.com/VinayK88/Agentic-soc-investigator) | Which behavior warrants attention, how strong is the signal, and what evidence explains it? |
 | **Analyze identity & attack paths** | [AttackPath AI](https://github.com/VinayK88/attackpath-ai), [Counterfactual Security Engine](https://github.com/VinayK88/Counterfactual-security-engine) | How can compromise propagate, what is reachable, and which controls reduce exposure? |
 | **Make trust & risk decisions** | [RiskOS](https://github.com/VinayK88/riskos) | What action should be taken given risk, uncertainty, review capacity, and policy constraints? |
-| **Verify digital content** | [DeepTrace](https://github.com/VinayK88/DeepTrace) | What evidence supports authenticity, manipulation risk, or coordinated amplification? |
+| **Verify digital content** | [DeepTrace](https://github.com/VinayK88/DeepTrace) | What evidence supports authenticity or coordinated amplification, and does the narrative distribution or clustering behavior drift? |
 | **Assure high-consequence systems** | [InfraGuard AI](https://github.com/VinayK88/InfraGuard-AI), [AI Data Center Security Digital Twin](https://github.com/VinayK88/ai-datacenter-security-digital-twin) | Can infrastructure remain safe when telemetry, models, identities, or control paths become unreliable? |
-| **Recover after cloud compromise** | [CloudRescue](https://github.com/VinayK88/CloudRescue) | If the production control plane is no longer trusted, can the business actually restore critical workloads? |
+| **Recover after cloud compromise** | [CloudRescue](https://github.com/VinayK88/CloudRescue) | Can the business restore critical workloads, and is the restore-time model still reliable under changing recovery conditions? |
 
 ---
 
@@ -107,11 +107,11 @@ Fuses provenance, metadata, source similarity, manipulation signals, narratives,
 <td width="50%" valign="top">
 
 ### [AgentAtlas](https://github.com/VinayK88/AgentAtlas)
-**AI-agent posture management & access governance**
+**AI-agent posture management & hybrid ML governance**
 
-Discovers managed, shadow, orphaned, and dormant agents; models effective access, delegation risk, permission drift, and sensitive-data reachability.
+Discovers managed, shadow, orphaned, and dormant agents; combines deterministic posture/access graphs with **Isolation Forest, peer-group deviation, PSI feature drift, versioned model metadata, and synthetic robustness tests**.
 
-**Focus:** Agent security · IAM · access graphs · governance
+**Focus:** Agent security · IAM · unsupervised ML · model monitoring · access graphs
 
 </td>
 <td width="50%" valign="top">
@@ -139,11 +139,11 @@ Combines deterministic security rules with an **Isolation Forest** behavioral an
 <td width="50%" valign="top">
 
 ### [SaaSGraph](https://github.com/VinayK88/SaaSGraph)
-**OAuth & third-party SaaS exposure analysis**
+**OAuth exposure + behavioral anomaly detection**
 
-Models sensitive scopes, administrative consent, token persistence, publisher trust, dormant grants, API-volume anomalies, and user/resource blast radius.
+Models sensitive scopes, consent, token persistence, API behavior, and blast radius with **Isolation Forest**, explainable feature deviations, PSI population drift, versioned model metadata, and low-and-slow robustness scenarios.
 
-**Focus:** SaaS security · OAuth governance · identity risk · third-party exposure
+**Focus:** SaaS security · OAuth governance · anomaly detection · drift monitoring
 
 </td>
 </tr>
@@ -161,11 +161,11 @@ Versioned detections with Sigma-style rules, KQL compilation, malicious/benign r
 <td width="50%" valign="top">
 
 ### [CloudRescue](https://github.com/VinayK88/CloudRescue)
-**Cloud ransomware resilience & recovery assurance**
+**Cloud ransomware resilience + recovery ML**
 
-Models backup, KMS, identity, network, region, and IaC dependencies to determine whether critical workloads remain recoverable after cloud compromise.
+Combines hard recovery-dependency evaluation with a **RandomForestRegressor** restore-time forecast, PSI feature drift, MAE residual monitoring, versioned feature schemas, and stress tests that verify ML never overrides missing backup/KMS/IAM/IaC dependencies.
 
-**Focus:** Cloud security · recovery engineering · ransomware resilience · RTO/RPO
+**Focus:** Cloud security · supervised ML · model monitoring · recovery engineering · RTO/RPO
 
 </td>
 </tr>
@@ -201,6 +201,7 @@ Defensive IT/OT/ICS-style simulation with safety envelopes, AI/data provenance, 
 
 - **Threat model first** — define assets, trust boundaries, abuse cases, and measurable failure conditions before choosing a model.
 - **Evaluation before deployment** — use hard negatives, regression tests, calibration, drift checks, and explicit release gates.
+- **Monitor after deployment** — track feature/population drift, prediction residuals, model and feature-schema versions, and robustness regressions.
 - **Evidence over demos** — preserve traces, provenance, baselines, failure cases, and machine-readable outputs.
 - **Human control for sensitive actions** — keep high-impact changes behind least-privilege tooling, approvals, and rollback paths.
 - **Resilient failure behavior** — design degraded-safe states and tested recovery paths instead of assuming dependencies remain healthy.
@@ -238,11 +239,15 @@ Endpoint & AI infrastructure security
 
 Anomaly detection  
 Isolation Forest / unsupervised detection  
-Classification  
+Random Forest / supervised regression  
+TF-IDF / DBSCAN clustering  
 Graph analytics  
 Sequence models  
 Calibration  
-Risk modeling  
+Population / feature drift (PSI)  
+Prediction residual monitoring  
+Model robustness testing  
+Model / feature-schema versioning  
 RAG  
 LLM / agent evaluation  
 Multimodal evidence fusion  
