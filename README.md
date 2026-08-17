@@ -40,11 +40,11 @@ I am especially interested in security problems where model accuracy alone is no
 <td width="25%" valign="top">
 
 ### [BrowserGuard](https://github.com/VinayK88/BrowserGuard)
-**Browser & extension detection/response**
+**Browser & extension detection/response with hybrid ML**
 
-Models extension permission drift, session/cookie exposure, risky update signals, AI-extension context, OAuth/SaaS reach, and user blast radius.
+Combines transparent posture rules with **Isolation Forest anomaly detection**, permission drift, session/cookie exposure, AI-extension context, OAuth/SaaS reach, and graph blast radius.
 
-**Focus:** Browser security · extension risk · identity · D&R
+**Focus:** Browser security · anomaly detection · Isolation Forest · graph risk
 
 </td>
 <td width="25%" valign="top">
@@ -89,7 +89,7 @@ Fuses provenance, metadata, source similarity, manipulation signals, narratives,
 | **Discover & govern AI agents** | [AgentAtlas](https://github.com/VinayK88/AgentAtlas) | What agents exist, what can they access, and where are delegation or permission risks? |
 | **Control agent execution** | [AgentShield](https://github.com/VinayK88/AgentShield) | Should this tool call be allowed, redacted, escalated for approval, or blocked right now? |
 | **Evaluate model safeguards** | [LLM Security Evaluation Lab](https://github.com/VinayK88/LLM-Security-Evaluation-Lab), [Frontier Agent Evals](https://github.com/VinayK88/frontier-agent-evals) | Does an AI system remain safe under misuse, prompt injection, tool use, and adversarial conditions? |
-| **Secure the browser** | [BrowserGuard](https://github.com/VinayK88/BrowserGuard) | Which extensions, permissions, sessions, and browser-to-SaaS paths create exposure? |
+| **Secure the browser with ML** | [BrowserGuard](https://github.com/VinayK88/BrowserGuard) | Which extensions behave abnormally, what can they access, and how large is their browser-to-SaaS blast radius? |
 | **Govern SaaS & OAuth trust** | [SaaSGraph](https://github.com/VinayK88/SaaSGraph) | Which third-party grants, persistent tokens, and OAuth trust relationships expose enterprise users or data? |
 | **Detect & investigate threats** | [DetectionForge](https://github.com/VinayK88/DetectionForge), [MacSentinel](https://github.com/VinayK88/macsentinel), [Agentic SOC Investigator](https://github.com/VinayK88/Agentic-soc-investigator) | Which behavior warrants attention, how strong is the signal, and what evidence explains it? |
 | **Analyze identity & attack paths** | [AttackPath AI](https://github.com/VinayK88/attackpath-ai), [Counterfactual Security Engine](https://github.com/VinayK88/Counterfactual-security-engine) | How can compromise propagate, what is reachable, and which controls reduce exposure? |
@@ -129,11 +129,11 @@ Evaluates proposed tool calls using user intent, tool risk, sensitive-data conte
 <td width="50%" valign="top">
 
 ### [BrowserGuard](https://github.com/VinayK88/BrowserGuard)
-**Browser & extension detection/response**
+**Browser & extension detection/response with hybrid ML**
 
-Combines extension inventory, permission drift, publisher/update trust, session and cookie exposure, AI-extension context, activity deviation, and browser-to-SaaS blast radius.
+Combines deterministic security rules with an **Isolation Forest** behavioral anomaly model, feature-deviation explanations, permission/update drift, session and cookie exposure, AI-extension context, and browser-to-SaaS graph blast radius.
 
-**Focus:** Browser security · extension security · identity · detection & response
+**Focus:** Browser security · unsupervised ML · anomaly detection · extension security · graph analytics
 
 </td>
 <td width="50%" valign="top">
@@ -237,6 +237,7 @@ Endpoint & AI infrastructure security
 **AI / Machine Learning**
 
 Anomaly detection  
+Isolation Forest / unsupervised detection  
 Classification  
 Graph analytics  
 Sequence models  
