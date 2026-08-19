@@ -6,7 +6,7 @@
 
 # Cybersecurity & AI Security Portfolio
 
-**Recent cybersecurity, AI-security, detection, trust & safety, threat-intelligence, cloud, identity, endpoint, infrastructure, and agent-security projects created within the past 30 days.**
+**Cybersecurity, AI-security, detection, trust & safety, threat-intelligence, cloud, identity, endpoint, infrastructure, and agent-security projects.**
 
 [![Agent Security](https://img.shields.io/badge/Agent%20Security-Agentic%20AI-2F81F7?style=flat-square)](https://github.com/VinayK88/AgentShield)
 [![Detection](https://img.shields.io/badge/Security%20ML-Detection-D29922?style=flat-square)](https://github.com/VinayK88/DetectionForge)
