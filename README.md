@@ -13,6 +13,17 @@
 [![LLM Security](https://img.shields.io/badge/LLM%20Security-Evaluation-8957E5?style=flat-square)](https://github.com/VinayK88/LLM-Security-Evaluation-Lab)
 [![Threat Intelligence](https://img.shields.io/badge/Threat%20Intelligence-Graph%20%2B%20OSINT-238636?style=flat-square)](https://github.com/VinayK88/Threat-intelligence-knowledgegraph)
 
+### Core Technology Stack
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-Data%20Pipelines-336791?style=flat-square)
+
 </div>
 
 <p align="center">
@@ -25,6 +36,16 @@
 
 <p align="center">
   <img src="./assets/agent-llm-security-segment.svg" alt="Agent and LLM security project segment" width="100%" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+  <img src="https://img.shields.io/badge/RAG-Retrieval%20Augmented-7C3AED?style=flat-square" alt="RAG" />
+  <img src="https://img.shields.io/badge/MITRE-ATT%26CK-CB2431?style=flat-square" alt="MITRE ATT&CK" />
 </p>
 
 | Project | Security focus |
@@ -48,6 +69,16 @@
   <img src="./assets/detection-security-segment.svg" alt="Detection engineering web and endpoint security project segment" width="100%" />
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn" />
+  <img src="https://img.shields.io/badge/XGBoost-Gradient%20Boosting-EC6B23?style=flat-square" alt="XGBoost" />
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+  <img src="https://img.shields.io/badge/MITRE-ATT%26CK-CB2431?style=flat-square" alt="MITRE ATT&CK" />
+</p>
+
 | Project | Security focus |
 | --- | --- |
 | [**DetectionForge**](https://github.com/VinayK88/DetectionForge) | Detection-as-code, replay metrics, release gates, ML alert prioritization |
@@ -65,6 +96,15 @@
   <img src="./assets/cloud-identity-security-segment.svg" alt="Cloud identity SaaS and attack-path project segment" width="100%" />
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/NetworkX-Graph%20Analytics-2C7FB8?style=flat-square" alt="NetworkX" />
+  <img src="https://img.shields.io/badge/OAuth-Identity-3C3C3D?style=flat-square" alt="OAuth" />
+  <img src="https://img.shields.io/badge/IAM-Access%20Control-1F6FEB?style=flat-square" alt="IAM" />
+</p>
+
 | Project | Security focus |
 | --- | --- |
 | [**AttackPath AI**](https://github.com/VinayK88/attackpath-ai) | Cross-source identity and agentic attack-path detection |
@@ -80,6 +120,16 @@
 
 <p align="center">
   <img src="./assets/threat-intel-risk-segment.svg" alt="Threat intelligence supply-chain and risk project segment" width="100%" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/NetworkX-Graph%20Analytics-2C7FB8?style=flat-square" alt="NetworkX" />
+  <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter" />
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/SBOM-Supply%20Chain-FF7F50?style=flat-square" alt="SBOM" />
+  <img src="https://img.shields.io/badge/CTI-Threat%20Intelligence-238636?style=flat-square" alt="CTI" />
 </p>
 
 | Project | Security focus |
