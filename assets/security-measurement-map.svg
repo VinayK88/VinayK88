@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470">
+<rect width="1200" height="470" rx="24" fill="#0d1117"/>
+<text x="600" y="48" text-anchor="middle" fill="#f0f6fc" font-family="Arial, sans-serif" font-size="28" font-weight="700">Security Data Science: Measure What Actually Reduces Risk</text>
+<text x="600" y="78" text-anchor="middle" fill="#8b949e" font-family="Arial, sans-serif" font-size="16">model behavior → controls → workflow → verified security outcome</text>
+<g font-family="Arial, sans-serif">
+<rect x="55" y="125" width="240" height="120" rx="16" fill="#161b22" stroke="#2f81f7" stroke-width="2"/>
+<text x="175" y="160" text-anchor="middle" fill="#58a6ff" font-size="21" font-weight="700">AgentShield</text>
+<text x="175" y="190" text-anchor="middle" fill="#c9d1d9" font-size="15">Safeguard effectiveness</text>
+<text x="175" y="214" text-anchor="middle" fill="#8b949e" font-size="13">risk reduction · friction · latency</text>
+<rect x="335" y="125" width="240" height="120" rx="16" fill="#161b22" stroke="#3fb950" stroke-width="2"/>
+<text x="455" y="160" text-anchor="middle" fill="#56d364" font-size="21" font-weight="700">VulnSignal</text>
+<text x="455" y="190" text-anchor="middle" fill="#c9d1d9" font-size="15">Finding → remediation</text>
+<text x="455" y="214" text-anchor="middle" fill="#8b949e" font-size="13">quality · actionability · resolution</text>
+<rect x="615" y="125" width="240" height="120" rx="16" fill="#161b22" stroke="#a371f7" stroke-width="2"/>
+<text x="735" y="160" text-anchor="middle" fill="#d2a8ff" font-size="20" font-weight="700">LLM Security Eval Lab</text>
+<text x="735" y="190" text-anchor="middle" fill="#c9d1d9" font-size="15">Safeguard evaluation</text>
+<text x="735" y="214" text-anchor="middle" fill="#8b949e" font-size="13">misuse · tools · interventions</text>
+<rect x="895" y="125" width="250" height="120" rx="16" fill="#161b22" stroke="#d29922" stroke-width="2"/>
+<text x="1020" y="160" text-anchor="middle" fill="#e3b341" font-size="20" font-weight="700">Frontier Agent Evals</text>
+<text x="1020" y="190" text-anchor="middle" fill="#c9d1d9" font-size="15">Long-horizon evaluation</text>
+<text x="1020" y="214" text-anchor="middle" fill="#8b949e" font-size="13">outcome · process · safety</text>
+<path d="M175 245 L175 300 L600 300" stroke="#30363d" stroke-width="2" fill="none"/>
+<path d="M455 245 L455 300" stroke="#30363d" stroke-width="2" fill="none"/>
+<path d="M735 245 L735 300" stroke="#30363d" stroke-width="2" fill="none"/>
+<path d="M1020 245 L1020 300 L600 300" stroke="#30363d" stroke-width="2" fill="none"/>
+<path d="M600 300 L600 325" stroke="#8b949e" stroke-width="2"/>
+<rect x="335" y="325" width="530" height="90" rx="18" fill="#21262d" stroke="#f0f6fc" stroke-width="1.5"/>
+<text x="600" y="360" text-anchor="middle" fill="#f0f6fc" font-size="22" font-weight="700">Decision Science & Security Outcomes</text>
+<text x="600" y="389" text-anchor="middle" fill="#8b949e" font-size="14">A/B tests · bootstrap CIs · calibration · false-positive cost · task success · remediation</text>
+</g>
+</svg>
