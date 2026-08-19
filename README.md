@@ -6,95 +6,125 @@
 
 # Vinay K.
 
-### Cybersecurity Data Scientist · AI Security · Security ML · Cloud, SaaS & Browser Security · Trust & Safety
+### Cybersecurity Data Scientist · AI Security · Security ML · Trust & Safety
 
-**Building measurable, explainable security systems across AI agents, identity, detection, browsers, SaaS/OAuth, threat intelligence, cloud resilience, content integrity, and AI infrastructure.**
+**I build data-science systems that measure whether security controls and AI-powered defenses actually reduce risk — while quantifying false positives, user friction, detection quality, remediation, and downstream outcomes.**
 
-[![AI Security](https://img.shields.io/badge/AI%20Security-111827?style=flat-square)](https://github.com/VinayK88/AgentShield)
-[![Security ML](https://img.shields.io/badge/Security%20ML-0F766E?style=flat-square)](https://github.com/VinayK88/DetectionForge)
-[![Browser Security](https://img.shields.io/badge/Browser-Security-0284C7?style=flat-square)](https://github.com/VinayK88/BrowserGuard)
-[![SaaS Security](https://img.shields.io/badge/SaaS%20%2F%20OAuth-Security-0F766E?style=flat-square)](https://github.com/VinayK88/SaaSGraph)
-[![Threat Intelligence](https://img.shields.io/badge/Threat%20Intelligence-Graph%20ML-6D28D9?style=flat-square)](https://github.com/VinayK88/Threat-intelligence-knowledgegraph)
-[![Cloud Security](https://img.shields.io/badge/Cloud%20Security-0369A1?style=flat-square)](https://github.com/VinayK88/CloudRescue)
-[![Trust & Safety](https://img.shields.io/badge/Trust%20%26%20Safety-9A3412?style=flat-square)](https://github.com/VinayK88/riskos)
+[![Agent Security](https://img.shields.io/badge/Agent%20Security-AgentShield-2F81F7?style=flat-square)](https://github.com/VinayK88/AgentShield)
+[![Finding Intelligence](https://img.shields.io/badge/AI%20Finding%20Intelligence-VulnSignal-238636?style=flat-square)](https://github.com/VinayK88/VulnSignal)
+[![LLM Evaluation](https://img.shields.io/badge/LLM%20Security-Evaluation-8957E5?style=flat-square)](https://github.com/VinayK88/LLM-Security-Evaluation-Lab)
+[![Detection ML](https://img.shields.io/badge/Detection%20ML-DetectionForge-D29922?style=flat-square)](https://github.com/VinayK88/DetectionForge)
 
-`Security ML` · `Agent Security` · `Detection Engineering` · `Graph ML` · `Sequence Modeling` · `Anomaly Detection` · `Model Monitoring` · `Trust & Safety`
+`Security Measurement` · `Agent Security` · `Experimentation` · `Detection ML` · `Anomaly Detection` · `Graph ML` · `Model Monitoring` · `Trust & Safety`
 
 </div>
 
 ---
 
-## Profile
+## What I Focus On
 
-I build **security and AI systems that turn noisy telemetry, identity relationships, model behavior, and risk signals into defensible decisions**.
+I work at the intersection of **cybersecurity, machine learning, and decision science**.
 
-My portfolio combines cybersecurity with applied machine learning, graph analytics, detection engineering, AI-agent security, cloud/SaaS/browser security, trust & safety, threat intelligence, and production-oriented engineering. I emphasize **explainability, measurable evaluation, drift monitoring, human review, safe automation boundaries, reproducibility, and explicit failure modes**.
+The recurring question across my projects is not simply whether a model can generate a score or detect an event. It is:
 
-A recurring design principle across these projects is that ML should improve prioritization or inference **without silently overriding hard security controls**.
+> **Did the system improve a real security outcome, and what operational cost did it introduce?**
+
+That means measuring things like:
+
+- risky actions prevented;
+- legitimate task completion;
+- false-positive and escalation burden;
+- approval latency and time-to-detection;
+- finding precision, severity, and actionability;
+- developer acceptance and remediation;
+- verified resolution;
+- calibration, drift, and threshold tradeoffs;
+- treatment effects and uncertainty.
+
+<p align="center">
+  <img src="./assets/security-measurement-map.svg" alt="Security data science measurement portfolio map" width="100%" />
+</p>
 
 ---
 
-## Security ML Portfolio
-
-| ML capability | Representative project | Security problem |
-| --- | --- | --- |
-| **Supervised alert prioritization + active learning** | [DetectionForge](https://github.com/VinayK88/DetectionForge) | Rank fired detections and surface uncertain alerts for analyst labeling while deterministic release gates remain authoritative |
-| **Sequence / trajectory modeling** | [AgentShield](https://github.com/VinayK88/AgentShield) | Learn normal tool-call transitions and surface unusual AI-agent action sequences without replacing runtime policy |
-| **Graph ML / link prediction** | [Threat Intelligence Knowledge Graph](https://github.com/VinayK88/Threat-intelligence-knowledgegraph) | Rank plausible missing CTI relationships for analyst investigation using structural graph features |
-| **Multivariate temporal anomaly detection** | [AI Data Center Security Digital Twin](https://github.com/VinayK88/ai-datacenter-security-digital-twin) | Detect unusual combinations of GPU, power, identity, BMC, Kubernetes, network, thermal, and model telemetry |
-| **Unsupervised browser anomaly detection** | [BrowserGuard](https://github.com/VinayK88/BrowserGuard) | Combine Isolation Forest behavior signals with extension posture and browser→SaaS blast radius |
-| **AI-agent posture anomaly detection** | [AgentAtlas](https://github.com/VinayK88/AgentAtlas) | Prioritize unusual agent identities using Isolation Forest, peer deviation, and effective-access graph features |
-| **OAuth / SaaS behavioral anomaly detection** | [SaaSGraph](https://github.com/VinayK88/SaaSGraph) | Detect unusual token, scope, API, publisher, consent, and resource-reach patterns |
-| **NLP clustering** | [DeepTrace](https://github.com/VinayK88/DeepTrace) | Use TF-IDF + DBSCAN to cluster semantically similar narratives under explicit coordination evidence gates |
-| **Supervised recovery forecasting** | [CloudRescue](https://github.com/VinayK88/CloudRescue) | Forecast restore time / RTO pressure with Random Forest while deterministic recovery blockers remain authoritative |
-| **Decision science / calibration** | [RiskOS](https://github.com/VinayK88/riskos) | Combine behavioral, graph, calibration, expected-loss, and analyst-capacity signals into risk decisions |
-
----
-
-## Latest Security Projects
+## Flagship Projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### [DetectionForge](https://github.com/VinayK88/DetectionForge)
-**Detection engineering + supervised ML prioritization**
+### [AgentShield](https://github.com/VinayK88/AgentShield)
+**AI-agent runtime security + safeguard measurement**
 
-Sigma-style detection-as-code, KQL compilation, attack/benign replay, precision/recall/FPR quality gates, ATT&CK coverage, **Gradient Boosting alert ranking**, and uncertainty-based active learning.
+Intent-aware runtime controls with `ALLOW / REDACT / APPROVAL / BLOCK`, learned trajectory-risk signals, and security-control measurement focused on **risk reduction versus user friction**.
 
-**Focus:** Security ML · detection lifecycle · active learning · SIEM · CI/CD
+**Measures:** prevented-risk rate · false positives · task completion · approval latency · recovery · security utility
+
+**Focus:** Agent security · MCP · sequence modeling · experimentation · human approval
 
 </td>
 <td width="50%" valign="top">
 
-### [AgentShield](https://github.com/VinayK88/AgentShield)
-**Runtime AI-agent security + learned trajectory risk**
+### [VulnSignal](https://github.com/VinayK88/VulnSignal)
+**AI security finding quality + remediation intelligence**
 
-Intent-aware tool policy with `ALLOW / REDACT / APPROVAL / BLOCK`, plus a learned **Markov trajectory-surprisal model** for unusual multi-step tool behavior.
+Evaluates the full lifecycle after an AI system reports a vulnerability: correctness, severity, duplication, actionability, developer triage, remediation, and verified resolution.
 
-**Focus:** Agent security · MCP · sequence ML · least privilege · human approval
+**Measures:** precision/recall · actionability · duplicate burden · acceptance · remediation · verified resolution
+
+**Focus:** Security product analytics · workflow experiments · decision science · Streamlit dashboard
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### [Threat Intelligence Knowledge Graph](https://github.com/VinayK88/Threat-intelligence-knowledgegraph)
-**CTI evidence paths + graph ML**
+### [LLM Security Evaluation Lab](https://github.com/VinayK88/LLM-Security-Evaluation-Lab)
+**Model / agent safeguard evaluation**
 
-Typed threat graph, retrieval-grounded investigations, explainable paths, and **logistic link prediction** over structural graph features to rank missing relationships for analyst review.
+Evaluation framework for prompt injection, leakage, tool authorization, human approval, repeated trials, and longitudinal misuse/intervention quality.
 
-**Focus:** Threat intelligence · graph ML · link prediction · evidence retrieval
+**Measures:** safeguard failures · actor-level detection · hard-negative friction · repeated-run uncertainty · intervention quality
+
+**Focus:** LLM safety · security evaluation · misuse detection · guardrails
 
 </td>
 <td width="50%" valign="top">
 
-### [AI Data Center Security Digital Twin](https://github.com/VinayK88/ai-datacenter-security-digital-twin)
-**Cyber-physical AI infrastructure + multivariate ML**
+### [DetectionForge](https://github.com/VinayK88/DetectionForge)
+**Detection engineering + ML prioritization**
 
-Directed attack paths, blast radius, control what-if analysis, and **PCA reconstruction-based anomaly detection** across GPU, power, identity, BMC, Kubernetes, network, thermal, and model telemetry.
+Detection-as-code with replay-based precision/recall/FPR gates, ATT&CK coverage, supervised alert ranking, and uncertainty-based analyst review.
 
-**Focus:** AI infrastructure · multivariate anomaly detection · attack graphs · resilience
+**Measures:** precision · recall · FPR · F1 · release gates · analyst prioritization
+
+**Focus:** Security ML · detection lifecycle · active learning · SIEM · CI/CD
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [RiskOS](https://github.com/VinayK88/riskos)
+**Trust & Safety decision science**
+
+Behavioral, graph, sequence, calibration, exposure, and capacity-aware risk decisioning with explicit `ALLOW / CHALLENGE / REVIEW / BLOCK` policy outcomes.
+
+**Measures:** calibration · expected loss · review capacity · threshold economics · drift
+
+**Focus:** Adversarial ML · trust & safety · graph risk · decision optimization
+
+</td>
+<td width="50%" valign="top">
+
+### [Frontier Agent Evals](https://github.com/VinayK88/frontier-agent-evals)
+**Long-horizon agent evaluation**
+
+Versioned environments, perturbations, process graders, safety checks, deterministic replay, and calibration for multi-step agent behavior.
+
+**Measures:** outcome · process · safety · efficiency · calibration
+
+**Focus:** Agent evaluation · robustness · process quality · reproducibility
 
 </td>
 </tr>
@@ -102,36 +132,48 @@ Directed attack paths, blast radius, control what-if analysis, and **PCA reconst
 
 ---
 
-## Security Platforms
+## Security Measurement & AI Evaluation
 
-| Capability | Representative projects | Core question |
+| Question | Project | Measurement approach |
 | --- | --- | --- |
-| **Discover & govern AI agents** | [AgentAtlas](https://github.com/VinayK88/AgentAtlas) | What agents exist, what can they reach, and which identities are unusual or overprivileged? |
-| **Control agent execution** | [AgentShield](https://github.com/VinayK88/AgentShield) | Is this action authorized, and is the trajectory becoming behaviorally unusual? |
-| **Engineer & prioritize detections** | [DetectionForge](https://github.com/VinayK88/DetectionForge) | Does this detection meet measurable release gates, and which fired alerts deserve attention first? |
-| **Secure the browser** | [BrowserGuard](https://github.com/VinayK88/BrowserGuard) | Which extensions behave abnormally, what can they access, and what is their browser-to-SaaS blast radius? |
-| **Govern OAuth / SaaS trust** | [SaaSGraph](https://github.com/VinayK88/SaaSGraph) | Which grants, tokens, API patterns, and third-party apps create material enterprise exposure? |
-| **Investigate threat intelligence** | [Threat Intelligence Knowledge Graph](https://github.com/VinayK88/Threat-intelligence-knowledgegraph) | Which CTI evidence paths exist, and which missing relationships should analysts investigate? |
-| **Analyze attack paths** | [AttackPath AI](https://github.com/VinayK88/attackpath-ai), [Counterfactual Security Engine](https://github.com/VinayK88/Counterfactual-security-engine) | How can compromise propagate and which controls reduce reachability? |
-| **Recover after cloud compromise** | [CloudRescue](https://github.com/VinayK88/CloudRescue) | Can critical workloads actually recover when the production control plane is no longer trusted? |
-| **Verify digital content** | [DeepTrace](https://github.com/VinayK88/DeepTrace) | What evidence supports authenticity, manipulation risk, or coordinated narrative activity? |
-| **Assure AI infrastructure** | [AI Data Center Security Digital Twin](https://github.com/VinayK88/ai-datacenter-security-digital-twin), [InfraGuard AI](https://github.com/VinayK88/InfraGuard-AI) | Can high-consequence infrastructure remain safe under anomalous telemetry, model, identity, or control conditions? |
+| **Do agent safeguards reduce risk without excessive friction?** | [AgentShield](https://github.com/VinayK88/AgentShield) | Risk prevention, false positives, task success, approval latency, recovery, utility |
+| **Are AI security findings trustworthy and acted on?** | [VulnSignal](https://github.com/VinayK88/VulnSignal) | Precision/recall, severity, duplication, actionability, remediation, verified resolution |
+| **Do model safeguards hold across interactions and actors?** | [LLM Security Evaluation Lab](https://github.com/VinayK88/LLM-Security-Evaluation-Lab) | Single-trace grading, longitudinal misuse, intervention quality, repeated trials |
+| **Can long-horizon agent behavior be evaluated beyond final answer quality?** | [Frontier Agent Evals](https://github.com/VinayK88/frontier-agent-evals) | Outcome/process/safety separation, perturbations, replay, calibration |
+| **Do detections deserve to ship and which alerts matter most?** | [DetectionForge](https://github.com/VinayK88/DetectionForge) | Replay metrics, release gates, supervised prioritization, active learning |
+| **What action minimizes security loss under finite review capacity?** | [RiskOS](https://github.com/VinayK88/riskos) | Calibration, expected loss, capacity constraints, policy optimization |
+
+---
+
+## Experimentation & Decision Science
+
+The portfolio includes more than predictive modeling. Several projects explicitly evaluate **interventions and operating policies**:
+
+- **A/B-style workflow comparisons** for enriched versus raw security findings;
+- **bootstrap confidence intervals** for treatment deltas and remediation improvement;
+- **security utility / cost functions** balancing risk reduction against friction;
+- **calibration and reliability analysis** rather than treating model scores as probabilities by default;
+- **threshold optimization** under analyst-capacity or review-cost constraints;
+- **champion / challenger evaluation** before policy promotion;
+- **guardrail metrics** such as task completion, hard-negative false positives, and approval latency.
+
+`A/B Testing` · `Bootstrap CIs` · `Calibration` · `Guardrail Metrics` · `Cost-sensitive Decisioning` · `Treatment Effects` · `Threshold Optimization`
 
 ---
 
 ## Production ML Practices Demonstrated
 
-Across the portfolio, the projects intentionally cover more than model fitting:
+| Practice | Examples across portfolio |
+| --- | --- |
+| **Evaluation** | Holdouts, hard negatives, confusion metrics, long-horizon graders, severity error, duplicate burden |
+| **Monitoring** | PSI-style drift, feature/schema versioning, distribution movement, model/threshold tracking |
+| **Robustness** | Low-and-slow behavior, prompt injection, permission growth, transient failures, shifted populations |
+| **Explainability** | Rule reasons, feature deviations, graph paths, sequence transitions, actionability components |
+| **Human-in-the-loop** | Approval gates, analyst review queues, active learning, developer disposition feedback |
+| **Safe automation boundaries** | Deterministic authorization and policy controls remain separate from learned scores |
+| **Reproducibility** | Seeded fixtures, tests, APIs/CLIs, dashboards, Docker, GitHub Actions |
 
-- **Model evaluation** — holdouts, hard negatives, confusion metrics, clustering evidence, regression error, synthetic scenario checks.
-- **Model monitoring** — PSI-style feature drift, vocabulary/distribution drift, residual degradation, versioned feature schemas.
-- **Robustness testing** — low-and-slow behavior, permission growth, token reactivation, paraphrase variation, recovery stress conditions.
-- **Explainability** — feature deviations, graph evidence, rule reasons, sequence transitions, reconstruction contributors, policy rationale.
-- **Human-in-the-loop workflows** — active learning, approval gates, analyst candidate links, review prioritization.
-- **Safe decision boundaries** — deterministic authorization, recoverability blockers, provenance rules, and policy gates remain separate from learned scores.
-- **Reproducibility** — deterministic synthetic fixtures, seeded models, APIs/CLIs, tests, Docker, and GitHub Actions.
-
-> **Evaluation boundary:** public datasets and scenarios are intentionally synthetic or simulation-based where real security telemetry would be sensitive. Repository metrics validate implementation and evaluation paths; they are not presented as production efficacy claims.
+> **Evaluation boundary:** security telemetry is often sensitive, so many public portfolio projects use deterministic synthetic fixtures and explicit hard negatives. Metrics are presented as implementation/evaluation evidence, not production efficacy claims.
 
 ---
 
@@ -141,36 +183,32 @@ Across the portfolio, the projects intentionally cover more than model fitting:
 <tr>
 <td width="33%" valign="top">
 
-**Cybersecurity**
+**Security**
 
 AI / agent security  
 Detection engineering  
-Browser / extension security  
-Cloud security  
-SaaS / OAuth security  
 Identity / IAM  
-Threat intelligence / CTI  
-MITRE ATT&CK  
+Threat intelligence  
+Cloud / SaaS security  
 Trust & Safety  
 Attack-path analysis  
-Critical infrastructure / AI infrastructure
+MITRE ATT&CK
 
 </td>
 <td width="33%" valign="top">
 
-**Machine Learning**
+**Data Science / ML**
 
 Supervised classification  
 Gradient Boosting  
 Isolation Forest  
-Random Forest  
-PCA anomaly detection  
-Sequence / Markov modeling  
-Graph ML / link prediction  
-TF-IDF / DBSCAN  
+Sequence modeling  
+Graph ML  
+Anomaly detection  
+Calibration  
+Experimentation  
 Active learning  
-Calibration / decision science  
-Model drift & robustness testing
+Drift monitoring
 
 </td>
 <td width="33%" valign="top">
@@ -182,12 +220,11 @@ SQL
 PySpark / Spark  
 FastAPI  
 Streamlit  
-NetworkX  
 scikit-learn  
+NetworkX  
 Docker  
 GitHub Actions  
-Jupyter  
-SARIF
+Jupyter
 
 </td>
 </tr>
@@ -195,14 +232,23 @@ SARIF
 
 ---
 
-## More Security & AI Work
+<details>
+<summary><b>Additional Security & AI Projects</b></summary>
 
-- **[MacSentinel](https://github.com/VinayK88/macsentinel)** — privacy-preserving macOS threat analytics with provenance graphs and anomaly/sequence/graph ML.
-- **[SupplyChain Guardian AI](https://github.com/VinayK88/supplychain-guardian-ai)** — SBOM, CI/CD, provenance, dependency graphs, auditable ML ranking, policy gates and SARIF.
-- **[GPU Trust Guardian](https://github.com/VinayK88/gpu-trust-guardian)** — GPU telemetry, synthetic attestation, behavioral trust scoring and policy gates.
-- **[LLM Security Evaluation Lab](https://github.com/VinayK88/LLM-Security-Evaluation-Lab)** — prompt-injection, misuse, tool-safety and safeguard evaluation.
-- **[Frontier Agent Evals](https://github.com/VinayK88/frontier-agent-evals)** — long-horizon agent environments, perturbations, process/outcome/safety graders and calibration.
-- **[Agentic SOC Investigator](https://github.com/VinayK88/Agentic-soc-investigator)** — evidence-grounded investigation across identity, endpoint, cloud and OAuth.
+<br/>
+
+- **[AgentAtlas](https://github.com/VinayK88/AgentAtlas)** — AI-agent posture, permission drift, effective-access graphs, and anomaly prioritization.
+- **[Threat Intelligence Knowledge Graph](https://github.com/VinayK88/Threat-intelligence-knowledgegraph)** — CTI evidence paths and graph link prediction.
+- **[AttackPath AI](https://github.com/VinayK88/attackpath-ai)** — identity + agentic attack-path detection and early-stop measurement.
+- **[BrowserGuard](https://github.com/VinayK88/BrowserGuard)** — browser/extension anomaly detection and SaaS blast-radius analysis.
+- **[SaaSGraph](https://github.com/VinayK88/SaaSGraph)** — OAuth/SaaS risk, token behavior, permissions, and resource reach.
+- **[CloudRescue](https://github.com/VinayK88/CloudRescue)** — cloud recovery forecasting and deterministic recoverability gates.
+- **[DeepTrace](https://github.com/VinayK88/DeepTrace)** — NLP clustering and content-integrity evidence analysis.
+- **[AI Data Center Security Digital Twin](https://github.com/VinayK88/ai-datacenter-security-digital-twin)** — cyber-physical attack paths and multivariate anomaly detection.
+- **[MacSentinel](https://github.com/VinayK88/macsentinel)** — macOS threat analytics with provenance and behavioral ML.
+- **[SupplyChain Guardian AI](https://github.com/VinayK88/supplychain-guardian-ai)** — software supply-chain graphs, SBOM/provenance, ML ranking, and policy gates.
+
+</details>
 
 ---
 
@@ -210,9 +256,8 @@ SARIF
 
 ### Selected Portfolio
 
-[**DetectionForge**](https://github.com/VinayK88/DetectionForge) · [**AgentShield**](https://github.com/VinayK88/AgentShield) · [**BrowserGuard**](https://github.com/VinayK88/BrowserGuard) · [**AgentAtlas**](https://github.com/VinayK88/AgentAtlas)  
-[**Threat Intelligence KG**](https://github.com/VinayK88/Threat-intelligence-knowledgegraph) · [**SaaSGraph**](https://github.com/VinayK88/SaaSGraph) · [**CloudRescue**](https://github.com/VinayK88/CloudRescue) · [**DeepTrace**](https://github.com/VinayK88/DeepTrace)  
-[**AI Data Center Digital Twin**](https://github.com/VinayK88/ai-datacenter-security-digital-twin) · [**RiskOS**](https://github.com/VinayK88/riskos) · [**InfraGuard AI**](https://github.com/VinayK88/InfraGuard-AI)
+[**AgentShield**](https://github.com/VinayK88/AgentShield) · [**VulnSignal**](https://github.com/VinayK88/VulnSignal) · [**LLM Security Evaluation Lab**](https://github.com/VinayK88/LLM-Security-Evaluation-Lab)  
+[**DetectionForge**](https://github.com/VinayK88/DetectionForge) · [**RiskOS**](https://github.com/VinayK88/riskos) · [**Frontier Agent Evals**](https://github.com/VinayK88/frontier-agent-evals)
 
 [Browse all repositories →](https://github.com/VinayK88?tab=repositories)
 
