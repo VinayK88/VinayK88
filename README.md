@@ -81,6 +81,9 @@
 
 | Project | Security focus |
 | --- | --- |
+| [**CodeSentinel AI**](https://github.com/VinayK88/CodeSentinel-AI) | AI-native secure code review, CWE mapping, finding validation, remediation tracking |
+| [**PhishGraph AI**](https://github.com/VinayK88/PhishGraph-AI) | Graph-enhanced phishing/BEC detection using identity, URL and campaign signals |
+| [**InsiderGuard**](https://github.com/VinayK88/InsiderGuard) | UEBA, DLP, peer baselines, insider risk and exfiltration-sequence detection |
 | [**DetectionForge**](https://github.com/VinayK88/DetectionForge) | Detection-as-code, replay metrics, release gates, ML alert prioritization |
 | [**AdversarialWeb**](https://github.com/VinayK88/AdversarialWeb-Behavioral-Bot-ATO-Web-Attack-Detection) | Bot, scraping, credential stuffing, ATO and detection-gap analysis |
 | [**BrowserGuard**](https://github.com/VinayK88/BrowserGuard) | Browser-extension risk, session exposure, permission drift and hybrid anomaly detection |
@@ -139,7 +142,7 @@
 | [**DeepTrace**](https://github.com/VinayK88/DeepTrace) | Content authenticity, provenance analysis and NLP campaign clustering |
 | [**SupplyChain Guardian AI**](https://github.com/VinayK88/supplychain-guardian-ai) | SBOM, CI/CD, build provenance, dependency risk and policy release gates |
 | [**SignalForge**](https://github.com/VinayK88/SignalForge) | Fraud, abuse and operational-risk ML with graph signals and cost-aware decisions |
-| [**RiskOS**](https://github.com/VinayK88/riskos) | Trust & Safety risk decisioning, calibration and capacity-aware policy optimization |
+| [**RiskOS**](https://github.com/VinayK88/riskos) | Trust & Safety risk decisioning, calibration, exposure, capacity-aware policy optimization |
 
 ---
 
