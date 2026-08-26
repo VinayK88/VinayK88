@@ -137,6 +137,7 @@
 
 | Project | Security focus |
 | --- | --- |
+| [**MessageShield — RCS Trust & Safety**](https://github.com/VinayK88/VinayK88/tree/main/MessageShield-RCS-Trust-Safety) | RCS/RBM spam and phishing detection, graph/behavioral signals, A/B testing, counterfactual analysis and false-positive guardrails |
 | [**Threat Intelligence Knowledge Graph**](https://github.com/VinayK88/Threat-intelligence-knowledgegraph) | CTI evidence paths, graph retrieval and analyst-gated link prediction |
 | [**OSINT Threat Intelligence Agent**](https://github.com/VinayK88/Osint-threat-intell-agent) | Evidence-grounded IOC investigation, provenance, contradictions and ATT&CK context |
 | [**DeepTrace**](https://github.com/VinayK88/DeepTrace) | Content authenticity, provenance analysis and NLP campaign clustering |
@@ -151,3 +152,11 @@
 `AI Security` · `Agent Security` · `Security ML` · `Detection Engineering` · `Threat Intelligence` · `Cloud Security` · `Identity Security` · `Trust & Safety`
 
 </div>
+
+---
+
+## Data Science Projects
+
+Foundational work in classical machine learning, statistical modeling, fraud and credit risk, customer analytics, insurance, forecasting, and supervised learning.
+
+[**View Data Science Projects →**](https://github.com/VinayK88/Data-Science-Projects)
