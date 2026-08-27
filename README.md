@@ -4,25 +4,27 @@
 
 <div align="center">
 
-# Cybersecurity & AI Security Portfolio
+# Cybersecurity · AI Security · Trust & Safety
 
-**Cybersecurity, AI-security, detection, trust & safety, threat-intelligence, cloud, identity, endpoint, infrastructure, and agent-security projects.**
+**Applied security data science across AI agents, detection engineering, consumer Trust & Safety, threat intelligence, cloud, identity, endpoint, infrastructure, and adversarial-risk systems.**
 
+[![Trust & Safety](https://img.shields.io/badge/Trust%20%26%20Safety-Messaging%20%2B%20Voice-0071E3?style=flat-square)](https://github.com/VinayK88/MessageShield-RCS-Trust-Safety)
 [![Agent Security](https://img.shields.io/badge/Agent%20Security-Agentic%20AI-2F81F7?style=flat-square)](https://github.com/VinayK88/AgentShield)
-[![Detection](https://img.shields.io/badge/Security%20ML-Detection-D29922?style=flat-square)](https://github.com/VinayK88/DetectionForge)
+[![Security ML](https://img.shields.io/badge/Security%20ML-XGBoost%20%2B%20Anomaly%20Detection-D29922?style=flat-square)](https://github.com/VinayK88/-CallShield-AI)
 [![LLM Security](https://img.shields.io/badge/LLM%20Security-Evaluation-8957E5?style=flat-square)](https://github.com/VinayK88/LLM-Security-Evaluation-Lab)
 [![Threat Intelligence](https://img.shields.io/badge/Threat%20Intelligence-Graph%20%2B%20OSINT-238636?style=flat-square)](https://github.com/VinayK88/Threat-intelligence-knowledgegraph)
 
 ### Core Technology Stack
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-Data%20Pipelines-336791?style=flat-square)
+![XGBoost](https://img.shields.io/badge/XGBoost-EC6B23?style=flat-square)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![NetworkX](https://img.shields.io/badge/NetworkX-Graph%20Analytics-2C7FB8?style=flat-square)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-Data%20Pipelines-336791?style=flat-square)
 
 </div>
 
@@ -32,20 +34,25 @@
 
 ---
 
+## Featured Trust & Safety Systems
+
+| Project | Product problem | Data science / ML |
+| --- | --- | --- |
+| [**MessageShield — RCS / RBM Trust & Safety**](https://github.com/VinayK88/MessageShield-RCS-Trust-Safety) | Protect messaging ecosystems from spam, phishing, scams, impersonation and coordinated abuse | NLP, behavioral features, graph signals, anomaly monitoring, A/B testing, counterfactual analysis, policy decisioning |
+| [**CallShield AI — Voice Trust & Safety**](https://github.com/VinayK88/-CallShield-AI) | Detect scam calls, robocalls, impersonation and coordinated calling campaigns | TF-IDF, XGBoost, Isolation Forest, ensemble risk, ≤2% FPR guardrail, SHAP-style explainability, campaign scoring |
+| [**DeepTrace**](https://github.com/VinayK88/DeepTrace) | Assess content authenticity and surface coordinated narrative amplification | provenance-aware evidence fusion, TF-IDF, DBSCAN, semantic similarity, campaign clustering |
+| [**RiskOS**](https://github.com/VinayK88/riskos) | Turn risk scores into calibrated Trust & Safety decisions under operational constraints | calibration, exposure modeling, policy optimization, capacity-aware decisioning |
+
+### Current Trust & Safety coverage
+
+`Messaging abuse` → `Voice scams` → `Content integrity` → `Fraud / abuse risk` → `Policy decisioning` → `Experimentation` → `Explainability`
+
+---
+
 ## Agent & LLM Security
 
 <p align="center">
   <img src="./assets/agent-llm-security-segment.svg" alt="Agent and LLM security project segment" width="100%" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
-  <img src="https://img.shields.io/badge/RAG-Retrieval%20Augmented-7C3AED?style=flat-square" alt="RAG" />
-  <img src="https://img.shields.io/badge/MITRE-ATT%26CK-CB2431?style=flat-square" alt="MITRE ATT&CK" />
 </p>
 
 | Project | Security focus |
@@ -69,16 +76,6 @@
   <img src="./assets/detection-security-segment.svg" alt="Detection engineering web and endpoint security project segment" width="100%" />
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn" />
-  <img src="https://img.shields.io/badge/XGBoost-Gradient%20Boosting-EC6B23?style=flat-square" alt="XGBoost" />
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
-  <img src="https://img.shields.io/badge/MITRE-ATT%26CK-CB2431?style=flat-square" alt="MITRE ATT&CK" />
-</p>
-
 | Project | Security focus |
 | --- | --- |
 | [**CodeSentinel AI**](https://github.com/VinayK88/CodeSentinel-AI) | AI-native secure code review, CWE mapping, finding validation, remediation tracking |
@@ -99,15 +96,6 @@
   <img src="./assets/cloud-identity-security-segment.svg" alt="Cloud identity SaaS and attack-path project segment" width="100%" />
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/NetworkX-Graph%20Analytics-2C7FB8?style=flat-square" alt="NetworkX" />
-  <img src="https://img.shields.io/badge/OAuth-Identity-3C3C3D?style=flat-square" alt="OAuth" />
-  <img src="https://img.shields.io/badge/IAM-Access%20Control-1F6FEB?style=flat-square" alt="IAM" />
-</p>
-
 | Project | Security focus |
 | --- | --- |
 | [**AttackPath AI**](https://github.com/VinayK88/attackpath-ai) | Cross-source identity and agentic attack-path detection |
@@ -119,37 +107,39 @@
 
 ---
 
-## Threat Intelligence · Supply Chain · Trust & Safety
+## Threat Intelligence · Supply Chain · Abuse Risk
 
 <p align="center">
   <img src="./assets/threat-intel-risk-segment.svg" alt="Threat intelligence supply-chain and risk project segment" width="100%" />
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/NetworkX-Graph%20Analytics-2C7FB8?style=flat-square" alt="NetworkX" />
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter" />
-  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/SBOM-Supply%20Chain-FF7F50?style=flat-square" alt="SBOM" />
-  <img src="https://img.shields.io/badge/CTI-Threat%20Intelligence-238636?style=flat-square" alt="CTI" />
-</p>
-
 | Project | Security focus |
 | --- | --- |
-| [**MessageShield — RCS Trust & Safety**](https://github.com/VinayK88/MessageShield-RCS-Trust-Safety) | RCS/RBM spam and phishing detection, graph/behavioral signals, A/B testing, counterfactual analysis and false-positive guardrails |
 | [**Threat Intelligence Knowledge Graph**](https://github.com/VinayK88/Threat-intelligence-knowledgegraph) | CTI evidence paths, graph retrieval and analyst-gated link prediction |
 | [**OSINT Threat Intelligence Agent**](https://github.com/VinayK88/Osint-threat-intell-agent) | Evidence-grounded IOC investigation, provenance, contradictions and ATT&CK context |
-| [**DeepTrace**](https://github.com/VinayK88/DeepTrace) | Content authenticity, provenance analysis and NLP campaign clustering |
 | [**SupplyChain Guardian AI**](https://github.com/VinayK88/supplychain-guardian-ai) | SBOM, CI/CD, build provenance, dependency risk and policy release gates |
 | [**SignalForge**](https://github.com/VinayK88/SignalForge) | Fraud, abuse and operational-risk ML with graph signals and cost-aware decisions |
-| [**RiskOS**](https://github.com/VinayK88/riskos) | Trust & Safety risk decisioning, calibration, exposure, capacity-aware policy optimization |
+
+---
+
+## Portfolio ML patterns
+
+| Pattern | Projects |
+| --- | --- |
+| **Supervised classification** | CallShield AI, MessageShield, AdversarialWeb, PhishGraph AI |
+| **Gradient boosting / nonlinear ML** | CallShield AI, detection and fraud systems |
+| **Anomaly detection** | CallShield AI, BrowserGuard, AgentAtlas, SaaSGraph |
+| **Graph analytics** | MessageShield, AttackPath AI, PhishGraph AI, Threat Intelligence Knowledge Graph |
+| **NLP / text modeling** | MessageShield, CallShield AI, DeepTrace, LLM Security Evaluation Lab |
+| **Clustering** | DeepTrace campaign discovery |
+| **Causal / experimental analysis** | MessageShield, Counterfactual Security Engine |
+| **Explainability / calibrated decisions** | CallShield AI, DetectionForge, RiskOS |
 
 ---
 
 <div align="center">
 
-`AI Security` · `Agent Security` · `Security ML` · `Detection Engineering` · `Threat Intelligence` · `Cloud Security` · `Identity Security` · `Trust & Safety`
+`AI Security` · `Agent Security` · `Security ML` · `Detection Engineering` · `Threat Intelligence` · `Cloud Security` · `Identity Security` · `Trust & Safety` · `Explainable ML`
 
 </div>
 
