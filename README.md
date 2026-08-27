@@ -142,11 +142,3 @@
 `AI Security` · `Agent Security` · `Security ML` · `Detection Engineering` · `Threat Intelligence` · `Cloud Security` · `Identity Security` · `Trust & Safety` · `Explainable ML`
 
 </div>
-
----
-
-## Data Science Projects
-
-Foundational work in classical machine learning, statistical modeling, fraud and credit risk, customer analytics, insurance, forecasting, and supervised learning.
-
-[**View Data Science Projects →**](https://github.com/VinayK88/Data-Science-Projects)
