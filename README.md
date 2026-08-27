@@ -1,24 +1,22 @@
+<p align="center">
+  <img src="./assets/cybersecurity-ai-banner.png" alt="Cybersecurity and AI security portfolio banner" width="100%" />
+</p>
+
+<p align="center">
+  <img src="./assets/profile-hero.svg" alt="Security, thoughtfully engineered" width="100%" />
+</p>
+
 <div align="center">
 
-<br/>
-
-# Security, thoughtfully engineered.
-
-### Cybersecurity · AI Security · Trust & Safety
-
-Applied security data science across **consumer safety, agent security, detection engineering, threat intelligence, cloud, identity, endpoint, and infrastructure**.
-
-<br/>
-
-[**Trust & Safety**](https://github.com/VinayK88/MessageShield-RCS-Trust-Safety) &nbsp;&nbsp;·&nbsp;&nbsp; [**Security ML**](https://github.com/VinayK88/-CallShield-AI) &nbsp;&nbsp;·&nbsp;&nbsp; [**Agent Security**](https://github.com/VinayK88/AgentShield) &nbsp;&nbsp;·&nbsp;&nbsp; [**Threat Intelligence**](https://github.com/VinayK88/Threat-intelligence-knowledgegraph)
+[**MessageShield**](https://github.com/VinayK88/MessageShield-RCS-Trust-Safety) &nbsp;&nbsp;·&nbsp;&nbsp; [**CallShield AI**](https://github.com/VinayK88/-CallShield-AI) &nbsp;&nbsp;·&nbsp;&nbsp; [**AgentShield**](https://github.com/VinayK88/AgentShield) &nbsp;&nbsp;·&nbsp;&nbsp; [**Threat Intelligence Graph**](https://github.com/VinayK88/Threat-intelligence-knowledgegraph)
 
 <br/>
 
 `Python` &nbsp; `SQL` &nbsp; `XGBoost` &nbsp; `scikit-learn` &nbsp; `Streamlit` &nbsp; `FastAPI` &nbsp; `NetworkX` &nbsp; `Docker`
 
-<br/>
-
 </div>
+
+<br/>
 
 ---
 
@@ -26,9 +24,11 @@ Applied security data science across **consumer safety, agent security, detectio
 
 ## Featured systems
 
-### Four products. Four different security problems.
+### Four focused products across consumer safety and security ML.
 
 </div>
+
+<br/>
 
 <table>
 <tr>
@@ -81,9 +81,11 @@ Turns risk scores into calibrated product decisions under operational constraint
 
 <div align="center">
 
-**Messaging abuse → Voice scams → Content integrity → Risk decisioning → Experimentation → Explainability**
+`Messaging abuse` &nbsp;→&nbsp; `Voice scams` &nbsp;→&nbsp; `Content integrity` &nbsp;→&nbsp; `Risk decisioning` &nbsp;→&nbsp; `Explainability`
 
 </div>
+
+<br/>
 
 ---
 
@@ -94,6 +96,8 @@ Turns risk scores into calibrated product decisions under operational constraint
 ### Security for systems that can reason, act, and use tools.
 
 </div>
+
+<br/>
 
 | Project | Focus |
 | --- | --- |
@@ -108,6 +112,8 @@ Turns risk scores into calibrated product decisions under operational constraint
 | [**Oversight Integrity Lab**](https://github.com/VinayK88/oversight-integrity-lab) | Counterfactual testing for compromised oversight and monitor effectiveness |
 | [**InfraGuard AI**](https://github.com/VinayK88/InfraGuard-AI) | Critical-infrastructure AI assurance and degraded-safe operation |
 
+<br/>
+
 ---
 
 <div align="center">
@@ -117,6 +123,8 @@ Turns risk scores into calibrated product decisions under operational constraint
 ### From raw telemetry to explainable security decisions.
 
 </div>
+
+<br/>
 
 | Project | Focus |
 | --- | --- |
@@ -130,6 +138,8 @@ Turns risk scores into calibrated product decisions under operational constraint
 | [**Security Telemetry Lakehouse**](https://github.com/VinayK88/Security-Telemetry-Lakehouse) | Event normalization, dedupe, watermarking, feature windows, explainable detections |
 | [**Cybersecurity Analytics & AI**](https://github.com/VinayK88/cybersecurity-analytics) | Identity, endpoint, network, SIEM, AI-safety, OSINT, purple-team analytics |
 
+<br/>
+
 ---
 
 <div align="center">
@@ -140,6 +150,8 @@ Turns risk scores into calibrated product decisions under operational constraint
 
 </div>
 
+<br/>
+
 | Project | Focus |
 | --- | --- |
 | [**AttackPath AI**](https://github.com/VinayK88/attackpath-ai) | Cross-source identity and agentic attack-path detection |
@@ -148,6 +160,8 @@ Turns risk scores into calibrated product decisions under operational constraint
 | [**CloudRescue**](https://github.com/VinayK88/CloudRescue) | Ransomware recovery assurance, recoverability gates, restore forecasting |
 | [**GPU Trust Guardian**](https://github.com/VinayK88/gpu-trust-guardian) | GPU trust, attestation, workload behavior, attack paths, analyst-agent guardrails |
 | [**AI Data Center Security Digital Twin**](https://github.com/VinayK88/ai-datacenter-security-digital-twin) | Cyber-physical attack paths, blast radius, multivariate infrastructure telemetry ML |
+
+<br/>
 
 ---
 
@@ -159,6 +173,8 @@ Turns risk scores into calibrated product decisions under operational constraint
 
 </div>
 
+<br/>
+
 | Project | Focus |
 | --- | --- |
 | [**Threat Intelligence Knowledge Graph**](https://github.com/VinayK88/Threat-intelligence-knowledgegraph) | CTI evidence paths, graph retrieval, analyst-gated link prediction |
@@ -166,13 +182,19 @@ Turns risk scores into calibrated product decisions under operational constraint
 | [**SupplyChain Guardian AI**](https://github.com/VinayK88/supplychain-guardian-ai) | SBOM, CI/CD, build provenance, dependency risk, policy release gates |
 | [**SignalForge**](https://github.com/VinayK88/SignalForge) | Fraud, abuse, and operational-risk ML with graph signals and cost-aware decisions |
 
+<br/>
+
 ---
 
 <div align="center">
 
 ## Applied ML across security
 
+### Predict. Reason. Decide.
+
 </div>
+
+<br/>
 
 <table>
 <tr>
@@ -182,7 +204,7 @@ Turns risk scores into calibrated product decisions under operational constraint
 </tr>
 </table>
 
-<br/>
+<br/><br/>
 
 <div align="center">
 
