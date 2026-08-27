@@ -1,23 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="350" viewBox="0 0 1200 350">
+<defs>
+  <radialGradient id="glow" cx="50%" cy="35%" r="55%">
+    <stop offset="0%" stop-color="#dbeafe" stop-opacity=".55"/>
+    <stop offset="55%" stop-color="#eef5ff" stop-opacity=".18"/>
+    <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="softShadow" x="-20%" y="-40%" width="140%" height="180%">
+    <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#000000" flood-opacity=".055"/>
+  </filter>
+</defs>
 <style>
-  text{font-family:"Avenir Next",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif}
-  .title{fill:#1d1d1f;font-size:54px;font-weight:650;letter-spacing:-2.2px}
-  .sub{fill:#6e6e73;font-size:20px;font-weight:400}
-  .eyebrow{fill:#0071e3;font-size:13px;font-weight:700;letter-spacing:2.2px}
-  .pillText{fill:#424245;font-size:13px;font-weight:600}
-  .pill{fill:#f5f5f7;stroke:#e8e8ed;stroke-width:1}
+  text{font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text","Helvetica Neue",Helvetica,Arial,sans-serif}
+  .title{fill:#1d1d1f;font-size:58px;font-weight:650;letter-spacing:-2.8px}
+  .sub{fill:#6e6e73;font-size:20px;font-weight:400;letter-spacing:-.25px}
+  .eyebrow{fill:#0071e3;font-size:12px;font-weight:700;letter-spacing:2.5px}
+  .pillText{fill:#424245;font-size:13px;font-weight:600;letter-spacing:-.1px}
+  .pill{fill:#ffffff;stroke:#e8e8ed;stroke-width:1}
+  .hairline{stroke:#e5e5ea;stroke-width:1}
+  .micro{fill:#86868b;font-size:11px;font-weight:500;letter-spacing:.25px}
   @media (prefers-color-scheme: dark){
-    .title{fill:#f5f5f7}.sub{fill:#a1a1a6}.eyebrow{fill:#2997ff}.pillText{fill:#f5f5f7}.pill{fill:#1c1c1e;stroke:#3a3a3c}
+    .title{fill:#f5f5f7}.sub{fill:#a1a1a6}.eyebrow{fill:#2997ff}.pillText{fill:#f5f5f7}.pill{fill:#1c1c1e;stroke:#3a3a3c}.hairline{stroke:#2c2c2e}.micro{fill:#98989d}
   }
 </style>
-<rect width="1200" height="300" fill="none"/>
-<text x="600" y="48" text-anchor="middle" class="eyebrow">CYBERSECURITY · AI SECURITY · TRUST &amp; SAFETY</text>
-<text x="600" y="116" text-anchor="middle" class="title">Security, thoughtfully engineered.</text>
-<text x="600" y="157" text-anchor="middle" class="sub">Applied machine learning and data science for safer systems.</text>
-<g transform="translate(235,196)">
-  <rect class="pill" x="0" y="0" width="170" height="42" rx="21"/><text class="pillText" x="85" y="27" text-anchor="middle">Trust &amp; Safety</text>
-  <rect class="pill" x="187" y="0" width="150" height="42" rx="21"/><text class="pillText" x="262" y="27" text-anchor="middle">Security ML</text>
-  <rect class="pill" x="354" y="0" width="160" height="42" rx="21"/><text class="pillText" x="434" y="27" text-anchor="middle">Agent Security</text>
-  <rect class="pill" x="531" y="0" width="200" height="42" rx="21"/><text class="pillText" x="631" y="27" text-anchor="middle">Threat Intelligence</text>
+<rect width="1200" height="350" fill="none"/>
+<ellipse cx="600" cy="112" rx="430" ry="180" fill="url(#glow)"/>
+<text x="600" y="45" text-anchor="middle" class="eyebrow">CYBERSECURITY · AI SECURITY · TRUST &amp; SAFETY</text>
+<text x="600" y="119" text-anchor="middle" class="title">Security, thoughtfully engineered.</text>
+<text x="600" y="161" text-anchor="middle" class="sub">Applied machine learning and data science for safer systems.</text>
+<text x="600" y="188" text-anchor="middle" class="micro">Detection · explainability · experimentation · risk decisioning</text>
+<g transform="translate(222,220)" filter="url(#softShadow)">
+  <rect class="pill" x="0" y="0" width="176" height="44" rx="22"/><text class="pillText" x="88" y="28" text-anchor="middle">Trust &amp; Safety</text>
+  <rect class="pill" x="194" y="0" width="152" height="44" rx="22"/><text class="pillText" x="270" y="28" text-anchor="middle">Security ML</text>
+  <rect class="pill" x="364" y="0" width="166" height="44" rx="22"/><text class="pillText" x="447" y="28" text-anchor="middle">Agent Security</text>
+  <rect class="pill" x="548" y="0" width="208" height="44" rx="22"/><text class="pillText" x="652" y="28" text-anchor="middle">Threat Intelligence</text>
 </g>
+<line x1="340" y1="309" x2="860" y2="309" class="hairline"/>
+<circle cx="553" cy="309" r="3" fill="#34c759"/><text x="566" y="313" class="micro">Security-first systems</text>
 </svg>
