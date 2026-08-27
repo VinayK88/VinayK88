@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150">
+<style>
+text{font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text","Helvetica Neue",Helvetica,Arial,sans-serif}.k{fill:#0071e3;font-size:11px;font-weight:700;letter-spacing:2px}.t{fill:#1d1d1f;font-size:19px;font-weight:650;letter-spacing:-.35px}.s{fill:#6e6e73;font-size:12px}.card{fill:#f5f5f7;stroke:#e8e8ed}.line{stroke:#d2d2d7}@media(prefers-color-scheme:dark){.t{fill:#f5f5f7}.s{fill:#a1a1a6}.k{fill:#2997ff}.card{fill:#1c1c1e;stroke:#3a3a3c}.line{stroke:#48484a}}
+</style>
+<text x="30" y="22" class="k">SELECTED WORK</text>
+<g transform="translate(30,38)">
+<rect width="270" height="88" rx="22" class="card"/><text x="22" y="34" class="t">MessageShield</text><text x="22" y="57" class="s">Messaging Trust &amp; Safety</text><line x1="22" y1="70" x2="248" y2="70" class="line"/><text x="22" y="82" class="s">NLP · graphs · experimentation</text>
+<rect x="290" width="270" height="88" rx="22" class="card"/><text x="312" y="34" class="t">CallShield AI</text><text x="312" y="57" class="s">Voice Trust &amp; Safety</text><line x1="312" y1="70" x2="538" y2="70" class="line"/><text x="312" y="82" class="s">XGBoost · anomaly · explainability</text>
+<rect x="580" width="270" height="88" rx="22" class="card"/><text x="602" y="34" class="t">AgentShield</text><text x="602" y="57" class="s">Agent Runtime Security</text><line x1="602" y1="70" x2="828" y2="70" class="line"/><text x="602" y="82" class="s">Tool policy · trajectory risk</text>
+<rect x="870" width="270" height="88" rx="22" class="card"/><text x="892" y="34" class="t">Threat Intel Graph</text><text x="892" y="57" class="s">Evidence &amp; Graph Intelligence</text><line x1="892" y1="70" x2="1118" y2="70" class="line"/><text x="892" y="82" class="s">CTI · provenance · link analysis</text>
+</g></svg>
