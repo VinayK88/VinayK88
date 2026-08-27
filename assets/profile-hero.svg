@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+<style>
+  text{font-family:"Avenir Next",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif}
+  .title{fill:#1d1d1f;font-size:54px;font-weight:650;letter-spacing:-2.2px}
+  .sub{fill:#6e6e73;font-size:20px;font-weight:400}
+  .eyebrow{fill:#0071e3;font-size:13px;font-weight:700;letter-spacing:2.2px}
+  .pillText{fill:#424245;font-size:13px;font-weight:600}
+  .pill{fill:#f5f5f7;stroke:#e8e8ed;stroke-width:1}
+  @media (prefers-color-scheme: dark){
+    .title{fill:#f5f5f7}.sub{fill:#a1a1a6}.eyebrow{fill:#2997ff}.pillText{fill:#f5f5f7}.pill{fill:#1c1c1e;stroke:#3a3a3c}
+  }
+</style>
+<rect width="1200" height="300" fill="none"/>
+<text x="600" y="48" text-anchor="middle" class="eyebrow">CYBERSECURITY · AI SECURITY · TRUST &amp; SAFETY</text>
+<text x="600" y="116" text-anchor="middle" class="title">Security, thoughtfully engineered.</text>
+<text x="600" y="157" text-anchor="middle" class="sub">Applied machine learning and data science for safer systems.</text>
+<g transform="translate(235,196)">
+  <rect class="pill" x="0" y="0" width="170" height="42" rx="21"/><text class="pillText" x="85" y="27" text-anchor="middle">Trust &amp; Safety</text>
+  <rect class="pill" x="187" y="0" width="150" height="42" rx="21"/><text class="pillText" x="262" y="27" text-anchor="middle">Security ML</text>
+  <rect class="pill" x="354" y="0" width="160" height="42" rx="21"/><text class="pillText" x="434" y="27" text-anchor="middle">Agent Security</text>
+  <rect class="pill" x="531" y="0" width="200" height="42" rx="21"/><text class="pillText" x="631" y="27" text-anchor="middle">Threat Intelligence</text>
+</g>
+</svg>
