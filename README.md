@@ -155,7 +155,7 @@ These projects explore a recurring product question: **how do you stop harmful b
 | Project | Focus |
 | --- | --- |
 | [**MessageShield**](https://github.com/VinayK88/MessageShield-RCS-Trust-Safety) | RCS/RBM spam, phishing, impersonation, graph abuse signals, experiments, counterfactual analysis |
-| [**CallShield AI**](https://github.com/VinayK88/-CallShield-AI) | Scam calls, robocalls, voice impersonation, behavioral ML, anomaly detection, explainability |
+| [**CallShield AI**](https://github.com/VinayK88/CallShield-AI) | Scam calls, robocalls, voice impersonation, behavioral ML, anomaly detection, explainability |
 | [**DeepTrace**](https://github.com/VinayK88/DeepTrace) | Content authenticity, provenance, semantic similarity, coordinated narrative clustering |
 | [**RiskOS**](https://github.com/VinayK88/riskos) | Calibrated Trust & Safety decisioning, exposure modeling, policy optimization |
 | [**SignalForge**](https://github.com/VinayK88/SignalForge) | Fraud, abuse, and operational-risk ML with graph signals and cost-aware decisions |
