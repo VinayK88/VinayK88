@@ -8,7 +8,7 @@
 
 <div align="center">
 
-[**MessageShield**](https://github.com/VinayK88/MessageShield-RCS-Trust-Safety) &nbsp;&nbsp;·&nbsp;&nbsp; [**CallShield AI**](https://github.com/VinayK88/-CallShield-AI) &nbsp;&nbsp;·&nbsp;&nbsp; [**AgentShield**](https://github.com/VinayK88/AgentShield) &nbsp;&nbsp;·&nbsp;&nbsp; [**Threat Intelligence Graph**](https://github.com/VinayK88/Threat-intelligence-knowledgegraph)
+[**AgentShield**](https://github.com/VinayK88/AgentShield) &nbsp;·&nbsp; [**VulnSignal**](https://github.com/VinayK88/VulnSignal) &nbsp;·&nbsp; [**LLM Security Eval Lab**](https://github.com/VinayK88/LLM-Security-Evaluation-Lab) &nbsp;·&nbsp; [**DetectionForge**](https://github.com/VinayK88/DetectionForge) &nbsp;·&nbsp; [**RiskOS**](https://github.com/VinayK88/riskos) &nbsp;·&nbsp; [**Frontier Agent Evals**](https://github.com/VinayK88/frontier-agent-evals)
 
 <br/>
 
@@ -49,9 +49,9 @@ The projects below focus on the full analytical lifecycle: **telemetry → featu
 
 <div align="center">
 
-## Featured systems
+## Flagship systems
 
-### Four focused products across consumer safety and security ML.
+### Six portfolio anchors across agent security, AI evaluation, detection engineering, and risk decisioning.
 
 </div>
 
@@ -61,52 +61,66 @@ The projects below focus on the full analytical lifecycle: **telemetry → featu
 <tr>
 <td width="50%" valign="top">
 
-### 💬 [MessageShield](https://github.com/VinayK88/MessageShield-RCS-Trust-Safety)
-**Messaging Trust & Safety**
+### 🛡️ [AgentShield](https://github.com/VinayK88/AgentShield)
+**AI Agent Runtime Security**
 
-Spam, phishing, impersonation, coordinated abuse, experimentation, and policy decisioning for RCS / RBM-style messaging.
+Deterministic tool authorization, learned trajectory-risk evidence, human approval, redaction, and measurable risk-versus-friction controls.
 
-**System thinking:** message-level classification + behavioral signals + graph context + ecosystem KPIs + intervention measurement.
-
-`NLP` · `Graph signals` · `Behavioral ML` · `A/B testing` · `Counterfactual analysis`
+`Runtime policy` · `MCP-aware governance` · `Sequence ML` · `Control evaluation`
 
 </td>
 <td width="50%" valign="top">
 
-### ☎️ [CallShield AI](https://github.com/VinayK88/-CallShield-AI)
-**Voice Trust & Safety**
+### 🔎 [VulnSignal](https://github.com/VinayK88/VulnSignal)
+**AI Security Finding Intelligence**
 
-Scam-call, robocall, impersonation, and coordinated-campaign detection with explainable ML.
+End-to-end finding quality, model routing, deduplication, triage experiments, remediation outcomes, and verified resolution.
 
-**System thinking:** transcript intelligence + XGBoost + novelty detection + campaign scoring + FPR-constrained intervention policy.
-
-`XGBoost` · `Isolation Forest` · `Ensemble risk` · `SHAP-style explainability` · `≤2% FPR guardrail`
+`Model routing` · `Finding quality` · `Experimentation` · `Security outcomes`
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### ◉ [DeepTrace](https://github.com/VinayK88/DeepTrace)
-**Content Integrity**
+### 🧪 [LLM Security Evaluation Lab](https://github.com/VinayK88/LLM-Security-Evaluation-Lab)
+**Adversarial AI Evaluation**
 
-Content authenticity, provenance analysis, semantic similarity, and coordinated narrative discovery.
+Prompt-injection, secret-leakage, hallucination, tool-authorization, approval-control, and response-trace evaluation.
 
-**System thinking:** provenance evidence + semantic similarity + unsupervised clustering + campaign-level interpretation.
-
-`Provenance` · `TF-IDF` · `DBSCAN` · `Semantic similarity` · `Campaign clustering`
+`Adversarial evals` · `Tool safety` · `Human approval` · `Trace grading`
 
 </td>
 <td width="50%" valign="top">
 
+### ⚒️ [DetectionForge](https://github.com/VinayK88/DetectionForge)
+**Detection Engineering as Code**
+
+Versioned detections, KQL compilation, malicious/benign replay, deterministic release gates, ML alert ranking, and active learning.
+
+`Detection as code` · `MITRE ATT&CK` · `Replay` · `Security ML`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 ### ◇ [RiskOS](https://github.com/VinayK88/riskos)
-**Trust & Safety Decisioning**
+**Calibrated Security Decisioning**
 
-Calibrated risk decisions under exposure, capacity, and operational constraints.
+Risk decisions separated from prediction so thresholds and interventions can reflect exposure, capacity, false-positive cost, and policy constraints.
 
-**System thinking:** prediction is separated from policy so thresholds and interventions can be optimized around real operational constraints.
+`Calibration` · `Exposure modeling` · `Policy optimization` · `Decision science`
 
-`Calibration` · `Exposure modeling` · `Policy optimization` · `Capacity-aware decisions`
+</td>
+<td width="50%" valign="top">
+
+### 🧭 [Frontier Agent Evals](https://github.com/VinayK88/frontier-agent-evals)
+**Long-Horizon Agent Evaluation**
+
+Outcome quality, process safety, intervention behavior, efficiency, and calibration for agents that reason and act over multiple steps.
+
+`Long-horizon evals` · `Process safety` · `Calibration` · `Agent reliability`
 
 </td>
 </tr>
@@ -115,6 +129,16 @@ Calibrated risk decisions under exposure, capacity, and operational constraints.
 <br/>
 
 ---
+
+<div align="center">
+
+## Research labs & supporting systems
+
+### Domain-focused systems that extend the flagship work across trust and safety, SOC operations, cloud, identity, and threat intelligence.
+
+</div>
+
+<br/>
 
 <div align="center">
 
@@ -355,6 +379,22 @@ The common design principle across the portfolio is that **a model score is not 
 <td width="25%" valign="top"><b>Productization</b><br/><br/>Streamlit<br/>FastAPI<br/>Docker<br/>Dashboards<br/>Model monitoring<br/>Experimentation</td>
 </tr>
 </table>
+
+<br/>
+
+---
+
+<div align="center">
+
+## Legacy & earlier analytics work
+
+</div>
+
+<br/>
+
+Earlier data-science and coursework repositories remain available for historical context. The six projects above represent the current cybersecurity and AI-security focus.
+
+[Data Science Projects](https://github.com/VinayK88/Data-Science-Projects) · [Python Proficiency Test](https://github.com/VinayK88/Python-Proficiency-Test) · [Social Media Mining](https://github.com/VinayK88/Social-media-mining) · [NLP Projects](https://github.com/VinayK88/NLP-Projects) · [Customer Marketing Analytics](https://github.com/VinayK88/Customer-Marketing-analytics-projects) · [Electronic Arts Data Science Test](https://github.com/VinayK88/Electronic-Arts-Data-science-test)
 
 <br/>
 
