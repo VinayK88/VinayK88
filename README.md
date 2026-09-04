@@ -142,6 +142,30 @@ Outcome quality, process safety, intervention behavior, efficiency, and calibrat
 
 <div align="center">
 
+## Evaluation & Decision Infrastructure
+
+### Production-style systems for keeping models, signals, benchmarks, and human-review policies trustworthy over time.
+
+</div>
+
+<br/>
+
+| Project | Focus |
+| --- | --- |
+| [**GoldenSet Factory**](https://github.com/VinayK88/GoldenSet-Factory) | Production feedback → governed, deduplicated, versioned evaluation sets |
+| [**EvalDrift**](https://github.com/VinayK88/EvalDrift) | Offline-to-production divergence, confidence intervals, sustained alerts, investigation ranking |
+| [**ReviewerIQ**](https://github.com/VinayK88/ReviewerIQ) | Capacity-constrained human-review optimization with clean policy comparisons |
+| [**FeatureDecay Lab**](https://github.com/VinayK88/FeatureDecay-Lab) | Signal decay, uncertainty, change points, replacement discovery, time-aware evaluation |
+| [**DecisionStream**](https://github.com/VinayK88/DecisionStream) | Leakage-safe event-time features, policy actions, replay, and champion/challenger evidence |
+
+**Shared engineering baseline:** synthetic-data boundaries · Python 3.10–3.12 CI · reproducible manifests · benchmark artifacts · MIT licensing · security reporting.
+
+<br/>
+
+---
+
+<div align="center">
+
 ## Trust & Safety · Fraud · Abuse
 
 ### Consumer protection, abuse detection, content integrity, and risk decisioning.
